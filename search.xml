@@ -1,6 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Flex 布局教程：语法篇（转载）</title>
+    <url>/2022/03/26/Flex-%E5%B8%83%E5%B1%80%E6%95%99%E7%A8%8B%EF%BC%9A%E8%AF%AD%E6%B3%95%E7%AF%87%EF%BC%88%E8%BD%AC%E8%BD%BD%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="Flex-布局教程：语法篇（转载）"><a href="#Flex-布局教程：语法篇（转载）" class="headerlink" title="Flex 布局教程：语法篇（转载）"></a>Flex 布局教程：语法篇（转载）</h1><p>作者： <a href="https://www.ruanyifeng.com/">阮一峰</a></p>
+<p>日期： 2015 年 7 月 10 日</p>
+<p>网页布局（layout）是 CSS 的一个重点应用。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071001.gif"></p>
+<p>布局的传统解决方案，基于<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model">盒状模型</a>，依赖 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"><code>display</code></a> 属性 + <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position"><code>position</code></a>属性 + <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float"><code>float</code></a>属性。它对于那些特殊布局非常不方便，比如，<a href="https://css-tricks.com/centering-css-complete-guide/">垂直居中</a>就不容易实现。</p>
+<span id="more"></span>
+
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071002.png"></p>
+<p>2009 年，W3C 提出了一种新的方案—-Flex 布局，可以简便、完整、响应式地实现各种页面布局。目前，它已经得到了所有浏览器的支持，这意味着，现在就能很安全地使用这项功能。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071003.jpg"></p>
+<p>Flex 布局将成为未来布局的首选方案。本文介绍它的语法，<a href="https://www.ruanyifeng.com/blog/2015/07/flex-examples.html">下一篇文章</a>给出常见布局的 Flex 写法。网友 <a href="http://vgee.cn/">JailBreak</a> 为本文的所有示例制作了 <a href="http://static.vgee.cn/static/index.html">Demo</a>，也可以参考。</p>
+<p>以下内容主要参考了下面两篇文章：<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a> 和 <a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties">A Visual Guide to CSS3 Flexbox Properties</a>。</p>
+<h2 id="一、Flex-布局是什么？"><a href="#一、Flex-布局是什么？" class="headerlink" title="一、Flex 布局是什么？"></a>一、Flex 布局是什么？</h2><hr>
+<p>Flex 是 Flexible Box 的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。</p>
+<p>任何一个容器都可以指定为 Flex 布局。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">display</span>: flex;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p>行内元素也可以使用 Flex 布局。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">display</span>: inline-flex;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p>Webkit 内核的浏览器，必须加上<code>-webkit</code>前缀。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">display</span>: -webkit-flex; <span class="hljs-comment">/* Safari */</span><br>  <span class="hljs-attribute">display</span>: flex;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p>注意，设为 Flex 布局以后，子元素的<code>float</code>、<code>clear</code>和<code>vertical-align</code>属性将失效。</p>
+<h2 id="二、基本概念"><a href="#二、基本概念" class="headerlink" title="二、基本概念"></a>二、基本概念</h2><hr>
+<p>采用 Flex 布局的元素，称为 Flex 容器（flex container），简称”容器”。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称”项目”。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png"></p>
+<p>容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做<code>main start</code>，结束位置叫做<code>main end</code>；交叉轴的开始位置叫做<code>cross start</code>，结束位置叫做<code>cross end</code>。</p>
+<p>项目默认沿主轴排列。单个项目占据的主轴空间叫做<code>main size</code>，占据的交叉轴空间叫做<code>cross size</code>。</p>
+<h2 id="三、容器的属性"><a href="#三、容器的属性" class="headerlink" title="三、容器的属性"></a>三、容器的属性</h2><hr>
+<p>以下 6 个属性设置在容器上。</p>
+<blockquote>
+<ul>
+<li>flex-direction</li>
+<li>flex-wrap</li>
+<li>flex-flow</li>
+<li>justify-content</li>
+<li>align-items</li>
+<li>align-content</li>
+</ul>
+</blockquote>
+<h3 id="3-1-flex-direction-属性"><a href="#3-1-flex-direction-属性" class="headerlink" title="3.1 flex-direction 属性"></a>3.1 flex-direction 属性</h3><hr>
+<p><code>flex-direction</code>属性决定主轴的方向（即项目的排列方向）。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">flex-direction</span>: row | row-reverse | column | column-reverse;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071005.png"></p>
+<p>它可能有 4 个值。</p>
+<blockquote>
+<ul>
+<li><code>row</code>（默认值）：主轴为水平方向，起点在左端。</li>
+<li><code>row-reverse</code>：主轴为水平方向，起点在右端。</li>
+<li><code>column</code>：主轴为垂直方向，起点在上沿。</li>
+<li><code>column-reverse</code>：主轴为垂直方向，起点在下沿。</li>
+</ul>
+</blockquote>
+<h3 id="3-2-flex-wrap-属性"><a href="#3-2-flex-wrap-属性" class="headerlink" title="3.2 flex-wrap 属性"></a>3.2 flex-wrap 属性</h3><hr>
+<p>默认情况下，项目都排在一条线（又称”轴线”）上。<code>flex-wrap</code>属性定义，如果一条轴线排不下，如何换行。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071006.png"></p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">flex-wrap</span>: nowrap | wrap | wrap-reverse;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p>它可能取三个值。</p>
+<p>（1）<code>nowrap</code>（默认）：不换行。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071007.png"></p>
+<p>（2）<code>wrap</code>：换行，第一行在上方。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071008.jpg"></p>
+<p>（3）<code>wrap-reverse</code>：换行，第一行在下方。</p>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071009.jpg"></p>
+<h3 id="3-3-flex-flow"><a href="#3-3-flex-flow" class="headerlink" title="3.3 flex-flow"></a>3.3 flex-flow</h3><hr>
+<p><code>flex-flow</code>属性是<code>flex-direction</code>属性和<code>flex-wrap</code>属性的简写形式，默认值为<code>row nowrap</code>。</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">flex-flow</span>: &lt;flex-direction&gt; || &lt;flex-wrap&gt;;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="3-4-justify-content-属性"><a href="#3-4-justify-content-属性" class="headerlink" title="3.4 justify-content 属性"></a>3.4 justify-content 属性</h3><hr>
+<p><code>justify-content</code>属性定义了项目在主轴上的对齐方式。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">justify-content</span>: flex-start | flex-end | center | space-between |<br>    space-around;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071010.png"></p>
+<p>它可能取 5 个值，具体对齐方式与轴的方向有关。下面假设主轴为从左到右。</p>
+<blockquote>
+<ul>
+<li><code>flex-start</code>（默认值）：左对齐</li>
+<li><code>flex-end</code>：右对齐</li>
+<li><code>center</code>： 居中</li>
+<li><code>space-between</code>：两端对齐，项目之间的间隔都相等。</li>
+<li><code>space-around</code>：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。</li>
+</ul>
+</blockquote>
+<h3 id="3-5-align-items-属性"><a href="#3-5-align-items-属性" class="headerlink" title="3.5 align-items 属性"></a>3.5 align-items 属性</h3><hr>
+<p><code>align-items</code>属性定义项目在交叉轴上如何对齐。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">align-items</span>: flex-start | flex-end | center | baseline | stretch;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071011.png"></p>
+<p>它可能取 5 个值。具体的对齐方式与交叉轴的方向有关，下面假设交叉轴从上到下。</p>
+<blockquote>
+<ul>
+<li><code>flex-start</code>：交叉轴的起点对齐。</li>
+<li><code>flex-end</code>：交叉轴的终点对齐。</li>
+<li><code>center</code>：交叉轴的中点对齐。</li>
+<li><code>baseline</code>: 项目的第一行文字的基线对齐。</li>
+<li><code>stretch</code>（默认值）：如果项目未设置高度或设为 auto，将占满整个容器的高度。</li>
+</ul>
+</blockquote>
+<h3 id="3-6-align-content-属性"><a href="#3-6-align-content-属性" class="headerlink" title="3.6 align-content 属性"></a>3.6 align-content 属性</h3><hr>
+<p><code>align-content</code>属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.box</span> &#123;<br>  <span class="hljs-attribute">align-content</span>: flex-start | flex-end | center | space-between | space-around<br>    | stretch;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071012.png"></p>
+<p>该属性可能取 6 个值。</p>
+<blockquote>
+<ul>
+<li><code>flex-start</code>：与交叉轴的起点对齐。</li>
+<li><code>flex-end</code>：与交叉轴的终点对齐。</li>
+<li><code>center</code>：与交叉轴的中点对齐。</li>
+<li><code>space-between</code>：与交叉轴两端对齐，轴线之间的间隔平均分布。</li>
+<li><code>space-around</code>：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。</li>
+<li><code>stretch</code>（默认值）：轴线占满整个交叉轴。</li>
+</ul>
+</blockquote>
+<h3 id="四、项目的属性"><a href="#四、项目的属性" class="headerlink" title="四、项目的属性"></a>四、项目的属性</h3><hr>
+<p>以下 6 个属性设置在项目上。</p>
+<blockquote>
+<ul>
+<li><code>order</code></li>
+<li><code>flex-grow</code></li>
+<li><code>flex-shrink</code></li>
+<li><code>flex-basis</code></li>
+<li><code>flex</code></li>
+<li><code>align-self</code></li>
+</ul>
+</blockquote>
+<h3 id="4-1-order-属性"><a href="#4-1-order-属性" class="headerlink" title="4.1 order 属性"></a>4.1 order 属性</h3><hr>
+<p><code>order</code>属性定义项目的排列顺序。数值越小，排列越靠前，默认为 0。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.item</span> &#123;<br>  <span class="hljs-attribute">order</span>: &lt;integer&gt;;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071013.png"></p>
+<h3 id="4-2-flex-grow-属性"><a href="#4-2-flex-grow-属性" class="headerlink" title="4.2 flex-grow 属性"></a>4.2 flex-grow 属性</h3><hr>
+<p><code>flex-grow</code>属性定义项目的放大比例，默认为<code>0</code>，即如果存在剩余空间，也不放大。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.item</span> &#123;<br>  <span class="hljs-attribute">flex-grow</span>: &lt;number&gt;; <span class="hljs-comment">/* default 0 */</span><br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071014.png"></p>
+<p>如果所有项目的<code>flex-grow</code>属性都为 1，则它们将等分剩余空间（如果有的话）。如果一个项目的<code>flex-grow</code>属性为 2，其他项目都为 1，则前者占据的剩余空间将比其他项多一倍。</p>
+<h3 id="4-3-flex-shrink-属性"><a href="#4-3-flex-shrink-属性" class="headerlink" title="4.3 flex-shrink 属性"></a>4.3 flex-shrink 属性</h3><hr>
+<p><code>flex-shrink</code>属性定义了项目的缩小比例，默认为 1，即如果空间不足，该项目将缩小。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.item</span> &#123;<br>  <span class="hljs-attribute">flex-shrink</span>: &lt;number&gt;; <span class="hljs-comment">/* default 1 */</span><br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071015.jpg"></p>
+<p>如果所有项目的<code>flex-shrink</code>属性都为 1，当空间不足时，都将等比例缩小。如果一个项目的<code>flex-shrink</code>属性为 0，其他项目都为 1，则空间不足时，前者不缩小。</p>
+<p>负值对该属性无效。</p>
+<h3 id="4-4-flex-basis-属性"><a href="#4-4-flex-basis-属性" class="headerlink" title="4.4 flex-basis 属性"></a>4.4 flex-basis 属性</h3><hr>
+<p><code>flex-basis</code>属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为<code>auto</code>，即项目的本来大小。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.item</span> &#123;<br>  <span class="hljs-attribute">flex-basis</span>: &lt;length&gt; | auto; <span class="hljs-comment">/* default auto */</span><br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p>它可以设为跟<code>width</code>或<code>height</code>属性一样的值（比如 350px），则项目将占据固定空间。</p>
+<h3 id="4-5-flex-属性"><a href="#4-5-flex-属性" class="headerlink" title="4.5 flex 属性"></a>4.5 flex 属性</h3><hr>
+<p><code>flex</code>属性是<code>flex-grow</code>, <code>flex-shrink</code> 和 <code>flex-basis</code>的简写，默认值为<code>0 1 auto</code>。后两个属性可选。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.item</span> &#123;<br>  <span class="hljs-attribute">flex</span>: none | [ &lt; <span class="hljs-string">&quot;flex-grow&quot;</span> &gt; &lt; <span class="hljs-string">&quot;flex-shrink&quot;</span> &gt;? || &lt; <span class="hljs-string">&quot;flex-basis&quot;</span> &gt; ];<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p>该属性有两个快捷值：<code>auto</code> (<code>1 1 auto</code>) 和 none (<code>0 0 auto</code>)。</p>
+<p>建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。</p>
+<h3 id="4-6-align-self-属性"><a href="#4-6-align-self-属性" class="headerlink" title="4.6 align-self 属性"></a>4.6 align-self 属性</h3><hr>
+<p><code>align-self</code>属性允许单个项目有与其他项目不一样的对齐方式，可覆盖<code>align-items</code>属性。默认值为<code>auto</code>，表示继承父元素的<code>align-items</code>属性，如果没有父元素，则等同于<code>stretch</code>。</p>
+<blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.item</span> &#123;<br>  <span class="hljs-attribute">align-self</span>: auto | flex-start | flex-end | center | baseline | stretch;<br>&#125;<br></code></pre></td></tr></table></figure>
+</blockquote>
+<p><img src="https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071016.png"></p>
+<p>该属性可能取 6 个值，除了 auto，其他都与 align-items 属性完全一致。</p>
+<p><strong><em>（完）<br>转载自<a href="https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">Flex 布局教程：语法篇 - 阮一峰的网络日志 (ruanyifeng.com)</a></em></strong></p>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown入门文档</title>
     <url>/2022/03/21/Markdown%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<h2 id="Markdown-入门文档"><a href="#Markdown-入门文档" class="headerlink" title="Markdown 入门文档"></a>Markdown 入门文档</h2><hr>
@@ -396,29 +583,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/03/16/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《霍乱时期的爱情》（上）</title>
     <url>/2022/03/20/%E3%80%8A%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85%E3%80%8B%EF%BC%88%E4%B8%8A%EF%BC%89/</url>
     <content><![CDATA[<h2 id="书籍推荐-——-《霍乱时期的爱情》（上）"><a href="#书籍推荐-——-《霍乱时期的爱情》（上）" class="headerlink" title="书籍推荐 —— 《霍乱时期的爱情》（上）"></a>书籍推荐 —— 《霍乱时期的爱情》（上）</h2><hr>
@@ -443,6 +607,29 @@
 ]]></content>
       <tags>
         <tag>书籍推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/03/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
@@ -498,30 +685,6 @@
 ]]></content>
       <tags>
         <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐背后的故事  —— “Enchanted”</title>
-    <url>/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
-    <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
-<h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
-<span id="more"></span>
-
-<hr>
-<h4 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h4><p>在一次采访中<strong>Taylor</strong>说这首歌是写给<strong>Adam Young</strong>的，在采访中<strong>Taylor</strong>这样说道：</p>
-<p>I wrote ＂Enchanted＂about a guy who I was enchanted to meet , obviously , He was somebody that I had talked to a couple of times on email , and then I was in New York and went to meet him.</p>
-<p>I remember just the whole way home thinking ,＂I hope he ‘ s not in love with somebody＂It was just wonderful , that feeling.Like , “ Oh my gosh . who＇s he with ? Does he like me ? Does he like somebody else ? What does it mean ?＂ I got home and he had emailed me and said something like ,＂Sorry I was so quiet . I was just wonderstruck meeting you .＂ And so I incorporated the word wonderstruck , into the song as a ,＂ Hey this one’s sorta for you .＂</p>
-<p><strong>大概意思是：</strong><br>我写“Enchanted”这首歌是关于一个我很想见到的人，显然，他是我在电子邮件上谈过几次的人，然后我就去纽约去见他。</p>
-<p>我记得回家的整个路上都在想，“我希望他没有爱上某人”，那种感觉真是太棒了。就像，“哦，天哪。他和谁在一起？他喜欢我吗？他喜欢 其他人？这是什么意思？”我回到家，他给我发了电子邮件，说，“对不起，我太安静了。我只是很惊讶见到你。 ”所以我把 wonderstruck 这个词加入到这首歌中，“嘿，这个有点适合你。”</p>
-<p>采访视频：<a href="https://www.youtube.com/watch?app=desktop&v=KR7kXQRg1Bw">点击此处</a><br><img src="https://i.bmp.ovh/imgs/2022/03/e9131932612c64eb.png" alt="采访截图"></p>
-<hr>
-<h4 id="回信…"><a href="#回信…" class="headerlink" title="回信…"></a>回信…</h4><p>后来<strong>Adam Young</strong>发现了专辑中的秘密后就给<strong>Taylor</strong>写了一封信，并在那首<strong>“Enchanted”</strong>中悄悄加了一句<strong>“Oh Taylor I was so enchanted to meet you too”</strong></p>
-<p>写给<strong>Taylor</strong>的信：<br><img src="https://i.bmp.ovh/imgs/2022/03/f42edcac9bdfa263.jpg" alt="写给Taylor的信"></p>
-<hr>
-<h4 id="后续…"><a href="#后续…" class="headerlink" title="后续…"></a>后续…</h4><p>后续<strong>Taylor</strong>没有回信给<strong>Adam</strong>，他们两人后来也没有在公开场合交流，具体他们曾经有没有在一起过一段时光也无人知晓……可能没有在一起的爱情就是最美的爱情吧…？</p>
-]]></content>
-      <tags>
-        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
@@ -609,6 +772,30 @@
 ]]></content>
       <tags>
         <tag>街景</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>音乐背后的故事  —— “Enchanted”</title>
+    <url>/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
+    <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
+<h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
+<span id="more"></span>
+
+<hr>
+<h4 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h4><p>在一次采访中<strong>Taylor</strong>说这首歌是写给<strong>Adam Young</strong>的，在采访中<strong>Taylor</strong>这样说道：</p>
+<p>I wrote ＂Enchanted＂about a guy who I was enchanted to meet , obviously , He was somebody that I had talked to a couple of times on email , and then I was in New York and went to meet him.</p>
+<p>I remember just the whole way home thinking ,＂I hope he ‘ s not in love with somebody＂It was just wonderful , that feeling.Like , “ Oh my gosh . who＇s he with ? Does he like me ? Does he like somebody else ? What does it mean ?＂ I got home and he had emailed me and said something like ,＂Sorry I was so quiet . I was just wonderstruck meeting you .＂ And so I incorporated the word wonderstruck , into the song as a ,＂ Hey this one’s sorta for you .＂</p>
+<p><strong>大概意思是：</strong><br>我写“Enchanted”这首歌是关于一个我很想见到的人，显然，他是我在电子邮件上谈过几次的人，然后我就去纽约去见他。</p>
+<p>我记得回家的整个路上都在想，“我希望他没有爱上某人”，那种感觉真是太棒了。就像，“哦，天哪。他和谁在一起？他喜欢我吗？他喜欢 其他人？这是什么意思？”我回到家，他给我发了电子邮件，说，“对不起，我太安静了。我只是很惊讶见到你。 ”所以我把 wonderstruck 这个词加入到这首歌中，“嘿，这个有点适合你。”</p>
+<p>采访视频：<a href="https://www.youtube.com/watch?app=desktop&v=KR7kXQRg1Bw">点击此处</a><br><img src="https://i.bmp.ovh/imgs/2022/03/e9131932612c64eb.png" alt="采访截图"></p>
+<hr>
+<h4 id="回信…"><a href="#回信…" class="headerlink" title="回信…"></a>回信…</h4><p>后来<strong>Adam Young</strong>发现了专辑中的秘密后就给<strong>Taylor</strong>写了一封信，并在那首<strong>“Enchanted”</strong>中悄悄加了一句<strong>“Oh Taylor I was so enchanted to meet you too”</strong></p>
+<p>写给<strong>Taylor</strong>的信：<br><img src="https://i.bmp.ovh/imgs/2022/03/f42edcac9bdfa263.jpg" alt="写给Taylor的信"></p>
+<hr>
+<h4 id="后续…"><a href="#后续…" class="headerlink" title="后续…"></a>后续…</h4><p>后续<strong>Taylor</strong>没有回信给<strong>Adam</strong>，他们两人后来也没有在公开场合交流，具体他们曾经有没有在一起过一段时光也无人知晓……可能没有在一起的爱情就是最美的爱情吧…？</p>
+]]></content>
+      <tags>
+        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
