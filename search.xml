@@ -228,6 +228,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/blog/2022/03/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python 入门自学文档</title>
     <url>/blog/2022/03/16/Python-%E5%85%A5%E9%97%A8%E8%87%AA%E5%AD%A6%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<h1 id="Python-入门自学文档"><a href="#Python-入门自学文档" class="headerlink" title="Python 入门自学文档"></a>Python 入门自学文档</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
@@ -396,29 +419,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/blog/2022/03/16/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《霍乱时期的爱情》（上）</title>
     <url>/blog/2022/03/20/%E3%80%8A%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85%E3%80%8B%EF%BC%88%E4%B8%8A%EF%BC%89/</url>
     <content><![CDATA[<h2 id="书籍推荐-——-《霍乱时期的爱情》（上）"><a href="#书籍推荐-——-《霍乱时期的爱情》（上）" class="headerlink" title="书籍推荐 —— 《霍乱时期的爱情》（上）"></a>书籍推荐 —— 《霍乱时期的爱情》（上）</h2><hr>
@@ -469,6 +469,35 @@
 ]]></content>
       <tags>
         <tag>油画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>电影细读  ——  “第九区”</title>
+    <url>/blog/2022/03/22/%E7%94%B5%E5%BD%B1%E7%BB%86%E8%AF%BB-%E2%80%94%E2%80%94-%E2%80%9C%E7%AC%AC%E4%B9%9D%E5%8C%BA%E2%80%9D/</url>
+    <content><![CDATA[<h3 id="电影细读-——-“第九区”"><a href="#电影细读-——-“第九区”" class="headerlink" title="电影细读 —— “第九区”"></a>电影细读 —— “第九区”</h3><hr>
+<h4 id="电影介绍："><a href="#电影介绍：" class="headerlink" title="电影介绍："></a>电影介绍：</h4><p>影片<strong>《第九区》</strong>是在 2009 年上映的科幻电影，由<strong>尼尔·布洛姆坎普</strong>导演。当时导演还没满 30 岁。在此之前导演曾在自己制作的科幻短片中崭露头角。影片就是从其中的《约堡外星人》改编而成。这几部科幻短片虽然反响不大，但获得了<strong>彼得·杰克逊</strong>赏识，当时选了<strong>尼尔·布洛姆坎普</strong>当《光环》的导演。后来因为诸公司的商业利益，《光环》计划被搁置。这使得彼得·杰克逊自掏腰包让<strong>尼尔·布洛姆坎普</strong>拍一部自己想拍的电影。一部让好莱坞科幻界感到羞耻的电影就这样诞生了。接着影片提名了五项奥斯卡，影片最终收获了 1.2 亿美元的票房成绩。<strong>尼尔·布洛姆坎普</strong>一举成名，这片以南非种族歧视的背景的以人性为题材的电影拉开了帷幕。</p>
+<span id="more"></span>
+
+<hr>
+<h4 id="电影叙述："><a href="#电影叙述：" class="headerlink" title="电影叙述："></a>电影叙述：</h4><p>影片采用<strong>半伪纪录片</strong>的形式，记录了主人公<strong>威格斯</strong>的故事。他是 MNU 的一名文职人员，MNU 是一家政府指派的执行控制和管理外星人的一家私人公司。他有一个和睦的家庭，而且岳父是 MNU 高管。威格斯则负责与外星人沟通交流。片中并没有详细的介绍外星飞船是如何来的，只从出现的那一刻就一直停在空中。接着人类的好奇心打破了这僵局，进入飞船一探究竟，结果不过是一群外星人难民，人类给出了一块地收留这些外星难民——<strong>“第九区”</strong>。人类发现外星人喜欢吃腐食，长相像一只巨大的虾，所以给他们取名为<strong>大虾</strong>。他们在南非住了 20 多年，性格易怒，经常干违法犯罪的事情。这也导致冲突不断，政府决定将第九区的外星人移到远离城市的地方。MNU 接受了这份工作，开始暴力驱逐大虾们。当然为了维持人类社会的平静，他们派出主人公<strong>威格斯</strong>与<strong>库巴斯</strong>作为行动的指挥官，但心狠手辣的<strong>库巴斯</strong>却丝毫不给面子。他用军队的力量暴力驱逐，这也是 MNU 公司想要的。在现场还有一大批人类的人权组织呼吁要善待大虾。在这时讲道理的<strong>威格斯</strong>想要去说服大虾们，但始终不得已。镜头给到第九区里的黑帮。黑帮用大虾爱吃的猫粮去换去外星人的武器或者钱。尽管他们有超越人类的高科技武器，但武器和外星 DNA 是锁定的，人类无法使用。影片中大虾们都没用过武器，大虾们的群体结构就像蚂蚁一样，领导者不在了，他们就不过是一群没有脑子的工蚁罢了。接着<strong>威格斯</strong>来到了一间民房中，随手找到了一个<strong>红背心</strong>外星人藏起来的试管，结果操作不当被溅了一脸。随后<strong>威格斯</strong>的身体开始慢慢发生变化，他的手指甲开始脱落，还吐出一堆黑血。他被送往了医院，但随即被 MNU 公司抓住去做实验。在此期间，<strong>威格斯</strong>一次又一次被要求使用外星武器杀死实验外星人，公司对此很满意。于是计划解剖<strong>威格斯</strong>，但他最后跑了出来，他四处躲避，但不会有人信任他。<strong>威格斯</strong>只好躲在第九区里。他想砍下了已经变成外星人的手，但疼痛却让他止步，随后<strong>威格斯</strong>回到那个让他变异成外星人的平房，<strong>威格斯</strong>向<strong>红背心</strong>外星人求救后随即晕了过去。醒后，<strong>威格斯</strong>发现<strong>红背心</strong>外星人是为数不多的智慧派，<strong>红背心</strong>答应他让他变回人类，不过得进 MNU 公司拿回一些试管。于是<strong>威格斯</strong>孤身一人去找黑帮谈生意，但钟爱力量的黑帮老大看上了这份令<strong>威格斯</strong>恐惧的身体。威格斯带着武器逃了出来但也和黑帮老大结下了恩怨。<strong>红背心</strong>永远都忘记不了那惨绝人寰的实验室，他觉得先去搬救兵，并让<strong>威格斯</strong>等他 3 年，<strong>威格斯</strong>一气之下击昏<strong>红背心</strong>，打算进入飞船内部但随即被黑帮老大抓住。在他马上就要被黑帮老大肢解吃掉前，在旁边的外星机甲保护了他。他开着机甲，想要离开这是非之地。接着<strong>威格斯</strong>看见<strong>库巴斯</strong>与<strong>红背心</strong>在撕斗，但他一开始却落荒而逃了，可当他听见<strong>库巴斯</strong>把打算杀死<strong>红背心</strong>。<strong>威格斯</strong>跑了回去，赌上自己的性命也要带着<strong>红背心</strong>回到飞船。到了影片的高潮部分了，<strong>威格斯</strong>一路血战，终于等到<strong>红背心</strong>上了飞船。看着飞船渐渐离去，<strong>威格斯</strong>露出复杂的笑容。故事结尾，大虾们搬进了<strong>“第十区”</strong>，他们也在忍气吞声着盼望着有朝一日能回家。</p>
+<p>除了主线，还有一条支线，是关于<strong>威格斯</strong>的与他妻子的爱情线。他们一直深爱着彼此。但三年是漫长的。片中最精彩的地方就是在于威格斯性格转变，不过这是迫于生理改变而发生变化的。他由原本的瞧不起大虾，到最后与大虾为伍。尽管都在意料之中但续写方法却让人料想不到。</p>
+<hr>
+<h4 id="主题："><a href="#主题：" class="headerlink" title="主题："></a>主题：</h4><ul>
+<li><p>与故事片所基于的短片_<a href="https://en.m.wikipedia.org/wiki/Alive_in_Joburg">《活着在约堡》</a>一样，<strong>第 9 区</strong>的背景受到<strong>种族隔离</strong>时代历史事件的启发，特别是暗指<a href="https://en.m.wikipedia.org/wiki/Cape_Town" title="Cape Town">开普敦</a>市中心的住宅区<a href="https://en.m.wikipedia.org/wiki/District_Six" title="District Six">第六区</a>，于 1966 年被政府宣布为”仅限白人”的地区，有 60，000 人被强行转移到<a href="https://en.m.wikipedia.org/wiki/Cape_Flats" title="Cape Flats">Cape Flats</a>， 距离 25 公里（16 英里）远。</p>
+</li>
+<li><p>这部电影强调了 Wikus 的讽刺意味以及他的经历对他性格的影响，这表明他变得越来越人性化，因为他在生物学上变得不那么人性化。夏威夷大学报纸《Ka Leo》的克里斯·迈克塞尔（Chris Mikesell）写道：”在这部电影中，用’黑人’、’亚洲人’、’墨西哥人’、’非法的’犹太人’、’白人’或任何数量的不同标签来代替’虾’这个词，你会听到对话背后隐藏的真相。</p>
+</li>
+<li><p>种族主义和仇外心理的主题的形式表现出来。用于描述外星人，”虾”一词指的是<a href="https://en.m.wikipedia.org/wiki/Parktown_prawn" title="Parktown prawn">帕克敦虾</a>，一种在南非被视为害虫的国王——蟋蟀物种。</p>
+</li>
+<li><p><strong>第 9 区</strong>的另一个基本主题是各州依赖跨国公司（作为政府资助的执法形式。由于 MNU 代表了与政府合作的公司类型，因此电影中对 MNU 的负面描述描绘了将军队和官僚机构外包给私人承包商的危险。</p>
+</li>
+</ul>
+<hr>
+<h4 id="个人感想："><a href="#个人感想：" class="headerlink" title="个人感想："></a>个人感想：</h4><p>“第九区”采用的伪纪录片的拍摄方法，而且用的手持摄影机，真实感毋庸置疑。无论是前期的主角伪采访，还是战争炮火下抖动的镜头，都能让观众更快的融入这个看似庞大的世界观。许多科幻片不叫好的原因并不是没有一个完整，精彩的故事，而往往是科幻片的世界观不被人理解。而揭示完<strong>“第九区”</strong>的世界观，就正是导演肆意发挥的时候了。电影主要都是围绕受害者“外星大虾们”来拍摄的，从一开始主角乃至大多数人欺负“外星人”，还给他们取了个“大虾”的绰号，从而让观众们看到“外星大虾们”的处境，再到主角逐渐慢慢变成“外星大虾”，主角陷入“外星人”身份与“人类”身份左右两难的处境，他不想变成“外星人”，但没有人是真心帮助他的，即使是身处高管的岳父，也想把他当成实验体。随后主角不得不抛弃身处“人类”的一面，寻求“外星人”的帮助。那些“外星大虾们”并不全是呆头呆脑的，只求苟延残喘生存的，其中还有<strong>“红背心”</strong>那样富有情感的“外星人”。而观众在经历了主角的遭遇后，就更能理解“外星大虾们”所受到的迫害。上面提过，<strong>“第九区”</strong>的背景是收到种族隔离的历史事件的启发。而在电影中，那些<strong>“外星人”</strong>就是那些难民的映射。而这些历史因为很少人相传而被遗忘，很难想象因为先天性肤色的不同，种族的不同，而带来的来自同为人类一员的迫害。世界上还有很多人依然还在遭受着战乱，歧视，等等…。而电影能将他们的故事带给我们，让我们在庆幸自己生活美好的同时，能对那些身处困境的陌生人更多的感同身受。这让我想起一句话</p>
+<p><strong>每当你觉得想要批评什么人的时候，你要记住并不是所有人都有你拥有的优势。-《了不起的盖茨比》</strong></p>
+]]></content>
+      <tags>
+        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
@@ -559,32 +588,27 @@
       </tags>
   </entry>
   <entry>
-    <title>电影细读  ——  “第九区”</title>
-    <url>/blog/2022/03/22/%E7%94%B5%E5%BD%B1%E7%BB%86%E8%AF%BB-%E2%80%94%E2%80%94-%E2%80%9C%E7%AC%AC%E4%B9%9D%E5%8C%BA%E2%80%9D/</url>
-    <content><![CDATA[<h3 id="电影细读-——-“第九区”"><a href="#电影细读-——-“第九区”" class="headerlink" title="电影细读 —— “第九区”"></a>电影细读 —— “第九区”</h3><hr>
-<h4 id="电影介绍："><a href="#电影介绍：" class="headerlink" title="电影介绍："></a>电影介绍：</h4><p>影片<strong>《第九区》</strong>是在 2009 年上映的科幻电影，由<strong>尼尔·布洛姆坎普</strong>导演。当时导演还没满 30 岁。在此之前导演曾在自己制作的科幻短片中崭露头角。影片就是从其中的《约堡外星人》改编而成。这几部科幻短片虽然反响不大，但获得了<strong>彼得·杰克逊</strong>赏识，当时选了<strong>尼尔·布洛姆坎普</strong>当《光环》的导演。后来因为诸公司的商业利益，《光环》计划被搁置。这使得彼得·杰克逊自掏腰包让<strong>尼尔·布洛姆坎普</strong>拍一部自己想拍的电影。一部让好莱坞科幻界感到羞耻的电影就这样诞生了。接着影片提名了五项奥斯卡，影片最终收获了 1.2 亿美元的票房成绩。<strong>尼尔·布洛姆坎普</strong>一举成名，这片以南非种族歧视的背景的以人性为题材的电影拉开了帷幕。</p>
+    <title>音乐背后的故事  —— “Enchanted”</title>
+    <url>/blog/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
+    <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
+<h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
 <span id="more"></span>
 
 <hr>
-<h4 id="电影叙述："><a href="#电影叙述：" class="headerlink" title="电影叙述："></a>电影叙述：</h4><p>影片采用<strong>半伪纪录片</strong>的形式，记录了主人公<strong>威格斯</strong>的故事。他是 MNU 的一名文职人员，MNU 是一家政府指派的执行控制和管理外星人的一家私人公司。他有一个和睦的家庭，而且岳父是 MNU 高管。威格斯则负责与外星人沟通交流。片中并没有详细的介绍外星飞船是如何来的，只从出现的那一刻就一直停在空中。接着人类的好奇心打破了这僵局，进入飞船一探究竟，结果不过是一群外星人难民，人类给出了一块地收留这些外星难民——<strong>“第九区”</strong>。人类发现外星人喜欢吃腐食，长相像一只巨大的虾，所以给他们取名为<strong>大虾</strong>。他们在南非住了 20 多年，性格易怒，经常干违法犯罪的事情。这也导致冲突不断，政府决定将第九区的外星人移到远离城市的地方。MNU 接受了这份工作，开始暴力驱逐大虾们。当然为了维持人类社会的平静，他们派出主人公<strong>威格斯</strong>与<strong>库巴斯</strong>作为行动的指挥官，但心狠手辣的<strong>库巴斯</strong>却丝毫不给面子。他用军队的力量暴力驱逐，这也是 MNU 公司想要的。在现场还有一大批人类的人权组织呼吁要善待大虾。在这时讲道理的<strong>威格斯</strong>想要去说服大虾们，但始终不得已。镜头给到第九区里的黑帮。黑帮用大虾爱吃的猫粮去换去外星人的武器或者钱。尽管他们有超越人类的高科技武器，但武器和外星 DNA 是锁定的，人类无法使用。影片中大虾们都没用过武器，大虾们的群体结构就像蚂蚁一样，领导者不在了，他们就不过是一群没有脑子的工蚁罢了。接着<strong>威格斯</strong>来到了一间民房中，随手找到了一个<strong>红背心</strong>外星人藏起来的试管，结果操作不当被溅了一脸。随后<strong>威格斯</strong>的身体开始慢慢发生变化，他的手指甲开始脱落，还吐出一堆黑血。他被送往了医院，但随即被 MNU 公司抓住去做实验。在此期间，<strong>威格斯</strong>一次又一次被要求使用外星武器杀死实验外星人，公司对此很满意。于是计划解剖<strong>威格斯</strong>，但他最后跑了出来，他四处躲避，但不会有人信任他。<strong>威格斯</strong>只好躲在第九区里。他想砍下了已经变成外星人的手，但疼痛却让他止步，随后<strong>威格斯</strong>回到那个让他变异成外星人的平房，<strong>威格斯</strong>向<strong>红背心</strong>外星人求救后随即晕了过去。醒后，<strong>威格斯</strong>发现<strong>红背心</strong>外星人是为数不多的智慧派，<strong>红背心</strong>答应他让他变回人类，不过得进 MNU 公司拿回一些试管。于是<strong>威格斯</strong>孤身一人去找黑帮谈生意，但钟爱力量的黑帮老大看上了这份令<strong>威格斯</strong>恐惧的身体。威格斯带着武器逃了出来但也和黑帮老大结下了恩怨。<strong>红背心</strong>永远都忘记不了那惨绝人寰的实验室，他觉得先去搬救兵，并让<strong>威格斯</strong>等他 3 年，<strong>威格斯</strong>一气之下击昏<strong>红背心</strong>，打算进入飞船内部但随即被黑帮老大抓住。在他马上就要被黑帮老大肢解吃掉前，在旁边的外星机甲保护了他。他开着机甲，想要离开这是非之地。接着<strong>威格斯</strong>看见<strong>库巴斯</strong>与<strong>红背心</strong>在撕斗，但他一开始却落荒而逃了，可当他听见<strong>库巴斯</strong>把打算杀死<strong>红背心</strong>。<strong>威格斯</strong>跑了回去，赌上自己的性命也要带着<strong>红背心</strong>回到飞船。到了影片的高潮部分了，<strong>威格斯</strong>一路血战，终于等到<strong>红背心</strong>上了飞船。看着飞船渐渐离去，<strong>威格斯</strong>露出复杂的笑容。故事结尾，大虾们搬进了<strong>“第十区”</strong>，他们也在忍气吞声着盼望着有朝一日能回家。</p>
-<p>除了主线，还有一条支线，是关于<strong>威格斯</strong>的与他妻子的爱情线。他们一直深爱着彼此。但三年是漫长的。片中最精彩的地方就是在于威格斯性格转变，不过这是迫于生理改变而发生变化的。他由原本的瞧不起大虾，到最后与大虾为伍。尽管都在意料之中但续写方法却让人料想不到。</p>
+<h4 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h4><p>在一次采访中<strong>Taylor</strong>说这首歌是写给<strong>Adam Young</strong>的，在采访中<strong>Taylor</strong>这样说道：</p>
+<p>I wrote ＂Enchanted＂about a guy who I was enchanted to meet , obviously , He was somebody that I had talked to a couple of times on email , and then I was in New York and went to meet him.</p>
+<p>I remember just the whole way home thinking ,＂I hope he ‘ s not in love with somebody＂It was just wonderful , that feeling.Like , “ Oh my gosh . who＇s he with ? Does he like me ? Does he like somebody else ? What does it mean ?＂ I got home and he had emailed me and said something like ,＂Sorry I was so quiet . I was just wonderstruck meeting you .＂ And so I incorporated the word wonderstruck , into the song as a ,＂ Hey this one’s sorta for you .＂</p>
+<p><strong>大概意思是：</strong><br>我写“Enchanted”这首歌是关于一个我很想见到的人，显然，他是我在电子邮件上谈过几次的人，然后我就去纽约去见他。</p>
+<p>我记得回家的整个路上都在想，“我希望他没有爱上某人”，那种感觉真是太棒了。就像，“哦，天哪。他和谁在一起？他喜欢我吗？他喜欢 其他人？这是什么意思？”我回到家，他给我发了电子邮件，说，“对不起，我太安静了。我只是很惊讶见到你。 ”所以我把 wonderstruck 这个词加入到这首歌中，“嘿，这个有点适合你。”</p>
+<p>采访视频：<a href="https://www.youtube.com/watch?app=desktop&v=KR7kXQRg1Bw">点击此处</a><br><img src="https://i.bmp.ovh/imgs/2022/03/e9131932612c64eb.png" alt="采访截图"></p>
 <hr>
-<h4 id="主题："><a href="#主题：" class="headerlink" title="主题："></a>主题：</h4><ul>
-<li><p>与故事片所基于的短片_<a href="https://en.m.wikipedia.org/wiki/Alive_in_Joburg">《活着在约堡》</a>一样，<strong>第 9 区</strong>的背景受到<strong>种族隔离</strong>时代历史事件的启发，特别是暗指<a href="https://en.m.wikipedia.org/wiki/Cape_Town" title="Cape Town">开普敦</a>市中心的住宅区<a href="https://en.m.wikipedia.org/wiki/District_Six" title="District Six">第六区</a>，于 1966 年被政府宣布为”仅限白人”的地区，有 60，000 人被强行转移到<a href="https://en.m.wikipedia.org/wiki/Cape_Flats" title="Cape Flats">Cape Flats</a>， 距离 25 公里（16 英里）远。</p>
-</li>
-<li><p>这部电影强调了 Wikus 的讽刺意味以及他的经历对他性格的影响，这表明他变得越来越人性化，因为他在生物学上变得不那么人性化。夏威夷大学报纸《Ka Leo》的克里斯·迈克塞尔（Chris Mikesell）写道：”在这部电影中，用’黑人’、’亚洲人’、’墨西哥人’、’非法的’犹太人’、’白人’或任何数量的不同标签来代替’虾’这个词，你会听到对话背后隐藏的真相。</p>
-</li>
-<li><p>种族主义和仇外心理的主题的形式表现出来。用于描述外星人，”虾”一词指的是<a href="https://en.m.wikipedia.org/wiki/Parktown_prawn" title="Parktown prawn">帕克敦虾</a>，一种在南非被视为害虫的国王——蟋蟀物种。</p>
-</li>
-<li><p><strong>第 9 区</strong>的另一个基本主题是各州依赖跨国公司（作为政府资助的执法形式。由于 MNU 代表了与政府合作的公司类型，因此电影中对 MNU 的负面描述描绘了将军队和官僚机构外包给私人承包商的危险。</p>
-</li>
-</ul>
+<h4 id="回信…"><a href="#回信…" class="headerlink" title="回信…"></a>回信…</h4><p>后来<strong>Adam Young</strong>发现了专辑中的秘密后就给<strong>Taylor</strong>写了一封信，并在那首<strong>“Enchanted”</strong>中悄悄加了一句<strong>“Oh Taylor I was so enchanted to meet you too”</strong></p>
+<p>写给<strong>Taylor</strong>的信：<br><img src="https://i.bmp.ovh/imgs/2022/03/f42edcac9bdfa263.jpg" alt="写给Taylor的信"></p>
 <hr>
-<h4 id="个人感想："><a href="#个人感想：" class="headerlink" title="个人感想："></a>个人感想：</h4><p>“第九区”采用的伪纪录片的拍摄方法，而且用的手持摄影机，真实感毋庸置疑。无论是前期的主角伪采访，还是战争炮火下抖动的镜头，都能让观众更快的融入这个看似庞大的世界观。许多科幻片不叫好的原因并不是没有一个完整，精彩的故事，而往往是科幻片的世界观不被人理解。而揭示完<strong>“第九区”</strong>的世界观，就正是导演肆意发挥的时候了。电影主要都是围绕受害者“外星大虾们”来拍摄的，从一开始主角乃至大多数人欺负“外星人”，还给他们取了个“大虾”的绰号，从而让观众们看到“外星大虾们”的处境，再到主角逐渐慢慢变成“外星大虾”，主角陷入“外星人”身份与“人类”身份左右两难的处境，他不想变成“外星人”，但没有人是真心帮助他的，即使是身处高管的岳父，也想把他当成实验体。随后主角不得不抛弃身处“人类”的一面，寻求“外星人”的帮助。那些“外星大虾们”并不全是呆头呆脑的，只求苟延残喘生存的，其中还有<strong>“红背心”</strong>那样富有情感的“外星人”。而观众在经历了主角的遭遇后，就更能理解“外星大虾们”所受到的迫害。上面提过，<strong>“第九区”</strong>的背景是收到种族隔离的历史事件的启发。而在电影中，那些<strong>“外星人”</strong>就是那些难民的映射。而这些历史因为很少人相传而被遗忘，很难想象因为先天性肤色的不同，种族的不同，而带来的来自同为人类一员的迫害。世界上还有很多人依然还在遭受着战乱，歧视，等等…。而电影能将他们的故事带给我们，让我们在庆幸自己生活美好的同时，能对那些身处困境的陌生人更多的感同身受。这让我想起一句话</p>
-<p><strong>每当你觉得想要批评什么人的时候，你要记住并不是所有人都有你拥有的优势。-《了不起的盖茨比》</strong></p>
+<h4 id="后续…"><a href="#后续…" class="headerlink" title="后续…"></a>后续…</h4><p>后续<strong>Taylor</strong>没有回信给<strong>Adam</strong>，他们两人后来也没有在公开场合交流，具体他们曾经有没有在一起过一段时光也无人知晓……可能没有在一起的爱情就是最美的爱情吧…？</p>
 ]]></content>
       <tags>
-        <tag>电影</tag>
+        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
@@ -604,30 +628,6 @@
 <ul>
 <li>但我总是把它理解为写给我的歌。如果你这样想……洋子刚刚开始被牵扯进整件事中。他是在说：“嘿，Jude——嘿，约翰（John）。”我知道我听起来像那些过分解读、添油加醋的歌迷，但你可以理解为一首写给我的歌……潜意识中，他在说，去吧，离开我。在有意识的层面上，他不想要我去。</li>
 </ul>
-]]></content>
-      <tags>
-        <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐背后的故事  —— “Enchanted”</title>
-    <url>/blog/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
-    <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
-<h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
-<span id="more"></span>
-
-<hr>
-<h4 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h4><p>在一次采访中<strong>Taylor</strong>说这首歌是写给<strong>Adam Young</strong>的，在采访中<strong>Taylor</strong>这样说道：</p>
-<p>I wrote ＂Enchanted＂about a guy who I was enchanted to meet , obviously , He was somebody that I had talked to a couple of times on email , and then I was in New York and went to meet him.</p>
-<p>I remember just the whole way home thinking ,＂I hope he ‘ s not in love with somebody＂It was just wonderful , that feeling.Like , “ Oh my gosh . who＇s he with ? Does he like me ? Does he like somebody else ? What does it mean ?＂ I got home and he had emailed me and said something like ,＂Sorry I was so quiet . I was just wonderstruck meeting you .＂ And so I incorporated the word wonderstruck , into the song as a ,＂ Hey this one’s sorta for you .＂</p>
-<p><strong>大概意思是：</strong><br>我写“Enchanted”这首歌是关于一个我很想见到的人，显然，他是我在电子邮件上谈过几次的人，然后我就去纽约去见他。</p>
-<p>我记得回家的整个路上都在想，“我希望他没有爱上某人”，那种感觉真是太棒了。就像，“哦，天哪。他和谁在一起？他喜欢我吗？他喜欢 其他人？这是什么意思？”我回到家，他给我发了电子邮件，说，“对不起，我太安静了。我只是很惊讶见到你。 ”所以我把 wonderstruck 这个词加入到这首歌中，“嘿，这个有点适合你。”</p>
-<p>采访视频：<a href="https://www.youtube.com/watch?app=desktop&v=KR7kXQRg1Bw">点击此处</a><br><img src="https://i.bmp.ovh/imgs/2022/03/e9131932612c64eb.png" alt="采访截图"></p>
-<hr>
-<h4 id="回信…"><a href="#回信…" class="headerlink" title="回信…"></a>回信…</h4><p>后来<strong>Adam Young</strong>发现了专辑中的秘密后就给<strong>Taylor</strong>写了一封信，并在那首<strong>“Enchanted”</strong>中悄悄加了一句<strong>“Oh Taylor I was so enchanted to meet you too”</strong></p>
-<p>写给<strong>Taylor</strong>的信：<br><img src="https://i.bmp.ovh/imgs/2022/03/f42edcac9bdfa263.jpg" alt="写给Taylor的信"></p>
-<hr>
-<h4 id="后续…"><a href="#后续…" class="headerlink" title="后续…"></a>后续…</h4><p>后续<strong>Taylor</strong>没有回信给<strong>Adam</strong>，他们两人后来也没有在公开场合交流，具体他们曾经有没有在一起过一段时光也无人知晓……可能没有在一起的爱情就是最美的爱情吧…？</p>
 ]]></content>
       <tags>
         <tag>音乐</tag>
