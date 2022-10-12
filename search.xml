@@ -228,82 +228,6 @@
       </tags>
   </entry>
   <entry>
-    <title>油画背后的故事——《Lady Godiva》</title>
-    <url>/blog/2022/03/22/%E6%B2%B9%E7%94%BB%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%94%E2%80%94%E3%80%8ALady-Godiva%E3%80%8B/</url>
-    <content><![CDATA[<h3 id="油画背后的故事——《Lady-Godiva》"><a href="#油画背后的故事——《Lady-Godiva》" class="headerlink" title="油画背后的故事——《Lady Godiva》"></a>油画背后的故事——《Lady Godiva》</h3><hr>
-<div align="center">
-<img src="https://img1.imgtp.com/2022/03/22/2NFEpO2g.jpg" width="500px" height="XXX"  />
-</div>
-<div align="center">
-约翰·科利尔（John Collier）的《戈迪瓦夫人》（Lady Godiva），约1897年
-</div>
-
-<span id="more"></span>
-
-<hr>
-<h4 id="故事背景："><a href="#故事背景：" class="headerlink" title="故事背景："></a>故事背景：</h4><p>根据故事的最经典的版本，考文垂的人民在<strong>Leofric 伯爵</strong>的压迫税收下民生凋敝，伯爵的夫人<strong>Godiva</strong>因为怜悯生活在考文垂的人民一次又一次地向她的丈夫提出上诉，<strong>伯爵</strong>顽固地拒绝降低税收。最后，<strong>伯爵</strong>厌倦了她的恳求，他说，如果<strong>Godiva 夫人</strong>脱光衣服，骑着马穿过镇上的街道，<strong>伯爵</strong>会答应她的请求。<strong>Godiva 夫人</strong>听信了他的诺言，便让所有人都留在屋内并关上窗户后，<strong>Godiva 夫人</strong>便脱光衣服骑着白马穿过城镇。不过镇上有个叫<strong>Tom</strong>的裁缝违背了诺言，悄悄地偷窥<strong>Godiva 夫人</strong>。后来<strong>伯爵</strong>被她妻子的行为打动了，便宣布降低税收。</p>
-<hr>
-<h4 id="故事背后："><a href="#故事背后：" class="headerlink" title="故事背后："></a>故事背后：</h4><ol>
-<li>传说偷窥 Godiva 夫人的 Tom 后来被打瞎了眼睛。</li>
-<li>一位叫 Thomas Pennant 的作家在书中《_Journey from Chester to London_》写道 Godiva 夫人并非完全全裸而是穿了一件紧贴她身体的丝绸，丝绸的颜色与她的皮肤相似。</li>
-<li>虽然传说的大多数都描述了 Godiva 骑车完全裸体，但对于这一概念的历史真实性存在很多争议。有些人认为，裸体神话起源于清教徒的宣传，旨在抹黑虔诚的 Godiva 夫人的声誉。11 世纪和 12 世纪的编年史家提到 Godiva 夫人是一位受人尊敬的宗教女性，十分美丽，却没有提到她裸体穿越街道。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>油画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/blog/2022/03/16/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《霍乱时期的爱情》（上）</title>
-    <url>/blog/2022/03/20/%E3%80%8A%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85%E3%80%8B%EF%BC%88%E4%B8%8A%EF%BC%89/</url>
-    <content><![CDATA[<h2 id="书籍推荐-——-《霍乱时期的爱情》（上）"><a href="#书籍推荐-——-《霍乱时期的爱情》（上）" class="headerlink" title="书籍推荐 —— 《霍乱时期的爱情》（上）"></a>书籍推荐 —— 《霍乱时期的爱情》（上）</h2><hr>
-<h3 id="作者简介："><a href="#作者简介：" class="headerlink" title="作者简介："></a>作者简介：</h3><p><strong>《霍乱时期的爱情》</strong>是哥伦比亚作家<strong>加夫列尔·加西亚·马尔克斯（后文简称马尔克斯）</strong>的作品，其经典代表作是<strong>《百年孤独》</strong>，并在 1982 年获得诺贝尔文学奖。</p>
-<span id="more"></span>
-
-<hr>
-<h3 id="小说梗概："><a href="#小说梗概：" class="headerlink" title="小说梗概："></a>小说梗概：</h3><p>小说的主角是<strong>弗洛伦蒂诺·阿里萨</strong>和<strong>费尔明娜·达萨</strong>。<strong>弗洛伦蒂诺</strong>和<strong>费尔明娜</strong>年轻时就坠入爱河。在<strong>费尔明娜</strong>的姑妈<strong>弗朗西斯卡</strong>的帮助下，两人之间形成了一种秘密关系。他们交换情书。但是<strong>费尔明娜</strong>的父亲<strong>洛伦佐·达萨</strong>在不久后发现了两人之间的关系，<strong>洛伦佐</strong>就开始强迫女儿、立即停止去见<strong>弗洛伦蒂诺</strong>，却被女儿拒绝。</p>
-<p>于是<strong>洛伦佐</strong>为了让女儿能忘记<strong>弗洛伦蒂诺</strong>，他强迫自己的女儿一起出去旅游。不过无论距离如何，<strong>费尔明娜</strong>和<strong>弗洛伦蒂诺</strong>继续通过电报进行通信。而当<strong>费尔明娜</strong>再次见到<strong>弗洛伦蒂诺</strong>时，<strong>费尔明娜</strong>却“惊慌地自问，怎么会如此残酷地让那样一个幻影在自己的心间占据了那么长时间”，并中断了与<strong>弗洛伦蒂诺</strong>的订婚，并归还了他所有的信。</p>
-<p>一个年轻而有成就的民族英雄<strong>胡维纳尔·乌尔比诺医生</strong>遇见了<strong>费尔明娜</strong>，开始讨好她。尽管费尔明娜最初不喜欢乌尔比诺医生，但费尔明娜最后还是屈从于她父亲的劝说以及乌尔比诺提供的安全和财富，他们最终还是在一起了。</p>
-<p>即使在<strong>费尔明娜</strong>与<strong>乌尔比诺</strong>订婚和结婚之后，<strong>弗洛伦蒂诺</strong>也发誓要保持忠诚，等待着<strong>费尔明娜</strong>。然而<strong>弗洛伦蒂诺</strong>开始利用放纵的生活来排遣分离的空虚。与此同时，<strong>费尔明娜</strong>和<strong>乌尔比诺</strong>医生一起变老，经历了漫长岁月，经历了婚姻的所有的现实。在结婚多年后，<strong>乌尔比诺</strong>医生向<strong>费尔明娜</strong>坦白了一段婚外恋，最终证明他并不是一个完全忠实的丈夫。不过直到<strong>乌尔比诺</strong>医生离世前他们依然还维系着这已经破碎的婚姻…</p>
-<p>多年之后，老年<strong>乌尔比诺</strong>医生试图把他的宠物鹦鹉从芒果树上捉出来，结果却从梯子上摔下死去。葬礼结束后，<strong>弗洛伦蒂诺</strong>再次向<strong>费尔明娜</strong>示爱，向她重申了他永恒的忠诚和不渝的爱情。渐渐的<strong>弗洛伦蒂诺</strong>慢慢地通过自己的文字消弭了两人之间的隔膜。在一次船上的旅行中，年迈的一对发现自己重坠爱河。<strong>费尔明娜</strong>担心这桩情事可能引起的丑闻，于是船长升起了一面向代表霍乱流行的黄旗，护送着这自我放逐但永远不分离的爱情。</p>
-<hr>
-<h3 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h3><p><strong>《霍乱时期的爱情》</strong>创作的直接起源，是<strong>马尔克斯</strong>在报纸上看到了一则新闻：一对来到四十年前的故地，重温蜜月旅行的老人，竟被载他们出游的船夫用桨打死了，为的是抢走他们身上带的钱。他们是一对秘密情人，四十年来一直一起度假，但各自都有幸福而稳定的婚姻，而且子孙满堂这个故事与父母年轻时候的爱情故事杂糅在一起，为作家笔下的虚构小说奠定了时间跨度与张力结构，但是，<strong>马尔克斯</strong>更为重要的创作契机源自于他个人对爱情的理解和对拉美文化的认识。</p>
-<p><strong>马尔克斯</strong>在小说里也呈现了这个故事</p>
-<p>“通过这个电台，她听到一则令人心碎的消息：一对来到四十年前的故地重温蜜月旅行的老人，竟被载他们出游的船夫用桨打死了，为的是抢走他们身上带的钱：十四美元。当卢克雷西娅·德尔雷亚尔把刊登在本地一份报纸上的整件事情的始末讲给她听时，她的感触更深了。警察发现两个老人是被活活打死的，女的七十八岁，男的八十四岁。他们是一对秘密情人，四十年来一直一起度假，但各自都有幸福而稳定的婚姻，而且子孙满堂。听小说连播时从未落过泪的费尔明娜·达萨，此刻却不得不强忍住哽在喉头的泪水。”</p>
-<hr>
-<h3 id="故事原型："><a href="#故事原型：" class="headerlink" title="故事原型："></a>故事原型：</h3><p><strong>而小说中弗洛伦蒂诺追求费尔明娜的故事则是马尔克斯父母的爱情故事原型，不同的是马尔克斯的父亲最终打动了岳父，而并非在小说里那样等待了“五十三年七月零十一天”：</strong></p>
-<p>“<strong>马尔克斯</strong>在小说创作期间，曾多次同自己的父母进行过交谈，他是在计划写一部反映他们生活的小说。故事是从<strong>马尔克斯</strong>的父亲开始的。他的父亲<strong>加夫列尔·埃里希奥·加西亚·马丁内斯</strong>是一个报务员、诗人和小提琴者，在他所属的阶级里，他是一个很受欢迎的年轻人，就像小说里的<strong>弗洛伦蒂诺</strong>一样。一个偶然的机会，他来到年迈的马尔克斯上校家里，并且爱上了上校的女儿。1925 年 3 月一个炎热的下午，在马尔克斯上校家一颗扁桃树的绿阴下，他向这位叫做<strong>路易莎</strong>的漂亮姑娘透露心迹，说自己因她而睡不着，他心里没有别的女人，一定要娶她为妻，甚至要即刻和她成亲；只给她二十四小时的考虑时间。</p>
-<p>然而姑娘未能做出任何回答，因为在这时候她的姑妈<strong>弗朗西斯卡·西莫多塞阿·梅希亚</strong>朝扁桃树下走来。她即是<strong>《霍乱时期的爱情》</strong>中<strong>埃斯科拉斯蒂卡·达萨</strong>姑妈的原型。<strong>加夫列尔</strong>给她取了一个“刻尔柏洛斯”的绰号，因为她形影不离地看着外甥女，成了所有想追求<strong>路易莎</strong>的小伙子的灾星。但<strong>路易莎</strong>最终还是偷偷答应了<strong>加夫列尔</strong>的求婚。</p>
-<p>得知女儿私定终身，<strong>马尔克斯上校</strong>气得不许<strong>加夫列尔</strong>再登自己的家门。但这对年轻的情侣想尽一切办法保持联系。于是<strong>加夫列尔</strong>的胆子越来越大，开始在窗下为爱人演奏小夜曲——就像<strong>弗洛伦蒂诺</strong>为<strong>费尔明娜</strong>所做的那样。<strong>路易莎</strong>的双亲觉得只有遥远的距离才能连根铲除年轻人炽热的恋情。于是就像小说中的<strong>洛伦索·达萨</strong>那样举家搬迁。但是，<strong>加夫列尔</strong>没有服输。他定下了更为高明的策略，在<strong>路易莎</strong>沿途经过的城镇的报务员们的配合下，两人通过电报进行密切联系。正是<strong>加夫列尔·埃里希奥</strong>的爱情故事，六十年后启发他的儿子创作出<strong>《霍乱时期的爱情》</strong>。他们之间的爱情故事本身就富有传奇色彩，即使原封不动，也是可读性非常强的文学作品。但马尔克斯并不就此止步，他又加入了另外一些人的爱情故事，包括他自己的爱情故事……”</p>
-]]></content>
-      <tags>
-        <tag>书籍推荐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python 入门自学文档</title>
     <url>/blog/2022/03/16/Python-%E5%85%A5%E9%97%A8%E8%87%AA%E5%AD%A6%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<h1 id="Python-入门自学文档"><a href="#Python-入门自学文档" class="headerlink" title="Python 入门自学文档"></a>Python 入门自学文档</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
@@ -472,6 +396,82 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/blog/2022/03/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《霍乱时期的爱情》（上）</title>
+    <url>/blog/2022/03/20/%E3%80%8A%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85%E3%80%8B%EF%BC%88%E4%B8%8A%EF%BC%89/</url>
+    <content><![CDATA[<h2 id="书籍推荐-——-《霍乱时期的爱情》（上）"><a href="#书籍推荐-——-《霍乱时期的爱情》（上）" class="headerlink" title="书籍推荐 —— 《霍乱时期的爱情》（上）"></a>书籍推荐 —— 《霍乱时期的爱情》（上）</h2><hr>
+<h3 id="作者简介："><a href="#作者简介：" class="headerlink" title="作者简介："></a>作者简介：</h3><p><strong>《霍乱时期的爱情》</strong>是哥伦比亚作家<strong>加夫列尔·加西亚·马尔克斯（后文简称马尔克斯）</strong>的作品，其经典代表作是<strong>《百年孤独》</strong>，并在 1982 年获得诺贝尔文学奖。</p>
+<span id="more"></span>
+
+<hr>
+<h3 id="小说梗概："><a href="#小说梗概：" class="headerlink" title="小说梗概："></a>小说梗概：</h3><p>小说的主角是<strong>弗洛伦蒂诺·阿里萨</strong>和<strong>费尔明娜·达萨</strong>。<strong>弗洛伦蒂诺</strong>和<strong>费尔明娜</strong>年轻时就坠入爱河。在<strong>费尔明娜</strong>的姑妈<strong>弗朗西斯卡</strong>的帮助下，两人之间形成了一种秘密关系。他们交换情书。但是<strong>费尔明娜</strong>的父亲<strong>洛伦佐·达萨</strong>在不久后发现了两人之间的关系，<strong>洛伦佐</strong>就开始强迫女儿、立即停止去见<strong>弗洛伦蒂诺</strong>，却被女儿拒绝。</p>
+<p>于是<strong>洛伦佐</strong>为了让女儿能忘记<strong>弗洛伦蒂诺</strong>，他强迫自己的女儿一起出去旅游。不过无论距离如何，<strong>费尔明娜</strong>和<strong>弗洛伦蒂诺</strong>继续通过电报进行通信。而当<strong>费尔明娜</strong>再次见到<strong>弗洛伦蒂诺</strong>时，<strong>费尔明娜</strong>却“惊慌地自问，怎么会如此残酷地让那样一个幻影在自己的心间占据了那么长时间”，并中断了与<strong>弗洛伦蒂诺</strong>的订婚，并归还了他所有的信。</p>
+<p>一个年轻而有成就的民族英雄<strong>胡维纳尔·乌尔比诺医生</strong>遇见了<strong>费尔明娜</strong>，开始讨好她。尽管费尔明娜最初不喜欢乌尔比诺医生，但费尔明娜最后还是屈从于她父亲的劝说以及乌尔比诺提供的安全和财富，他们最终还是在一起了。</p>
+<p>即使在<strong>费尔明娜</strong>与<strong>乌尔比诺</strong>订婚和结婚之后，<strong>弗洛伦蒂诺</strong>也发誓要保持忠诚，等待着<strong>费尔明娜</strong>。然而<strong>弗洛伦蒂诺</strong>开始利用放纵的生活来排遣分离的空虚。与此同时，<strong>费尔明娜</strong>和<strong>乌尔比诺</strong>医生一起变老，经历了漫长岁月，经历了婚姻的所有的现实。在结婚多年后，<strong>乌尔比诺</strong>医生向<strong>费尔明娜</strong>坦白了一段婚外恋，最终证明他并不是一个完全忠实的丈夫。不过直到<strong>乌尔比诺</strong>医生离世前他们依然还维系着这已经破碎的婚姻…</p>
+<p>多年之后，老年<strong>乌尔比诺</strong>医生试图把他的宠物鹦鹉从芒果树上捉出来，结果却从梯子上摔下死去。葬礼结束后，<strong>弗洛伦蒂诺</strong>再次向<strong>费尔明娜</strong>示爱，向她重申了他永恒的忠诚和不渝的爱情。渐渐的<strong>弗洛伦蒂诺</strong>慢慢地通过自己的文字消弭了两人之间的隔膜。在一次船上的旅行中，年迈的一对发现自己重坠爱河。<strong>费尔明娜</strong>担心这桩情事可能引起的丑闻，于是船长升起了一面向代表霍乱流行的黄旗，护送着这自我放逐但永远不分离的爱情。</p>
+<hr>
+<h3 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h3><p><strong>《霍乱时期的爱情》</strong>创作的直接起源，是<strong>马尔克斯</strong>在报纸上看到了一则新闻：一对来到四十年前的故地，重温蜜月旅行的老人，竟被载他们出游的船夫用桨打死了，为的是抢走他们身上带的钱。他们是一对秘密情人，四十年来一直一起度假，但各自都有幸福而稳定的婚姻，而且子孙满堂这个故事与父母年轻时候的爱情故事杂糅在一起，为作家笔下的虚构小说奠定了时间跨度与张力结构，但是，<strong>马尔克斯</strong>更为重要的创作契机源自于他个人对爱情的理解和对拉美文化的认识。</p>
+<p><strong>马尔克斯</strong>在小说里也呈现了这个故事</p>
+<p>“通过这个电台，她听到一则令人心碎的消息：一对来到四十年前的故地重温蜜月旅行的老人，竟被载他们出游的船夫用桨打死了，为的是抢走他们身上带的钱：十四美元。当卢克雷西娅·德尔雷亚尔把刊登在本地一份报纸上的整件事情的始末讲给她听时，她的感触更深了。警察发现两个老人是被活活打死的，女的七十八岁，男的八十四岁。他们是一对秘密情人，四十年来一直一起度假，但各自都有幸福而稳定的婚姻，而且子孙满堂。听小说连播时从未落过泪的费尔明娜·达萨，此刻却不得不强忍住哽在喉头的泪水。”</p>
+<hr>
+<h3 id="故事原型："><a href="#故事原型：" class="headerlink" title="故事原型："></a>故事原型：</h3><p><strong>而小说中弗洛伦蒂诺追求费尔明娜的故事则是马尔克斯父母的爱情故事原型，不同的是马尔克斯的父亲最终打动了岳父，而并非在小说里那样等待了“五十三年七月零十一天”：</strong></p>
+<p>“<strong>马尔克斯</strong>在小说创作期间，曾多次同自己的父母进行过交谈，他是在计划写一部反映他们生活的小说。故事是从<strong>马尔克斯</strong>的父亲开始的。他的父亲<strong>加夫列尔·埃里希奥·加西亚·马丁内斯</strong>是一个报务员、诗人和小提琴者，在他所属的阶级里，他是一个很受欢迎的年轻人，就像小说里的<strong>弗洛伦蒂诺</strong>一样。一个偶然的机会，他来到年迈的马尔克斯上校家里，并且爱上了上校的女儿。1925 年 3 月一个炎热的下午，在马尔克斯上校家一颗扁桃树的绿阴下，他向这位叫做<strong>路易莎</strong>的漂亮姑娘透露心迹，说自己因她而睡不着，他心里没有别的女人，一定要娶她为妻，甚至要即刻和她成亲；只给她二十四小时的考虑时间。</p>
+<p>然而姑娘未能做出任何回答，因为在这时候她的姑妈<strong>弗朗西斯卡·西莫多塞阿·梅希亚</strong>朝扁桃树下走来。她即是<strong>《霍乱时期的爱情》</strong>中<strong>埃斯科拉斯蒂卡·达萨</strong>姑妈的原型。<strong>加夫列尔</strong>给她取了一个“刻尔柏洛斯”的绰号，因为她形影不离地看着外甥女，成了所有想追求<strong>路易莎</strong>的小伙子的灾星。但<strong>路易莎</strong>最终还是偷偷答应了<strong>加夫列尔</strong>的求婚。</p>
+<p>得知女儿私定终身，<strong>马尔克斯上校</strong>气得不许<strong>加夫列尔</strong>再登自己的家门。但这对年轻的情侣想尽一切办法保持联系。于是<strong>加夫列尔</strong>的胆子越来越大，开始在窗下为爱人演奏小夜曲——就像<strong>弗洛伦蒂诺</strong>为<strong>费尔明娜</strong>所做的那样。<strong>路易莎</strong>的双亲觉得只有遥远的距离才能连根铲除年轻人炽热的恋情。于是就像小说中的<strong>洛伦索·达萨</strong>那样举家搬迁。但是，<strong>加夫列尔</strong>没有服输。他定下了更为高明的策略，在<strong>路易莎</strong>沿途经过的城镇的报务员们的配合下，两人通过电报进行密切联系。正是<strong>加夫列尔·埃里希奥</strong>的爱情故事，六十年后启发他的儿子创作出<strong>《霍乱时期的爱情》</strong>。他们之间的爱情故事本身就富有传奇色彩，即使原封不动，也是可读性非常强的文学作品。但马尔克斯并不就此止步，他又加入了另外一些人的爱情故事，包括他自己的爱情故事……”</p>
+]]></content>
+      <tags>
+        <tag>书籍推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>油画背后的故事——《Lady Godiva》</title>
+    <url>/blog/2022/03/22/%E6%B2%B9%E7%94%BB%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%94%E2%80%94%E3%80%8ALady-Godiva%E3%80%8B/</url>
+    <content><![CDATA[<h3 id="油画背后的故事——《Lady-Godiva》"><a href="#油画背后的故事——《Lady-Godiva》" class="headerlink" title="油画背后的故事——《Lady Godiva》"></a>油画背后的故事——《Lady Godiva》</h3><hr>
+<div align="center">
+<img src="https://img1.imgtp.com/2022/03/22/2NFEpO2g.jpg" width="500px" height="XXX"  />
+</div>
+<div align="center">
+约翰·科利尔（John Collier）的《戈迪瓦夫人》（Lady Godiva），约1897年
+</div>
+
+<span id="more"></span>
+
+<hr>
+<h4 id="故事背景："><a href="#故事背景：" class="headerlink" title="故事背景："></a>故事背景：</h4><p>根据故事的最经典的版本，考文垂的人民在<strong>Leofric 伯爵</strong>的压迫税收下民生凋敝，伯爵的夫人<strong>Godiva</strong>因为怜悯生活在考文垂的人民一次又一次地向她的丈夫提出上诉，<strong>伯爵</strong>顽固地拒绝降低税收。最后，<strong>伯爵</strong>厌倦了她的恳求，他说，如果<strong>Godiva 夫人</strong>脱光衣服，骑着马穿过镇上的街道，<strong>伯爵</strong>会答应她的请求。<strong>Godiva 夫人</strong>听信了他的诺言，便让所有人都留在屋内并关上窗户后，<strong>Godiva 夫人</strong>便脱光衣服骑着白马穿过城镇。不过镇上有个叫<strong>Tom</strong>的裁缝违背了诺言，悄悄地偷窥<strong>Godiva 夫人</strong>。后来<strong>伯爵</strong>被她妻子的行为打动了，便宣布降低税收。</p>
+<hr>
+<h4 id="故事背后："><a href="#故事背后：" class="headerlink" title="故事背后："></a>故事背后：</h4><ol>
+<li>传说偷窥 Godiva 夫人的 Tom 后来被打瞎了眼睛。</li>
+<li>一位叫 Thomas Pennant 的作家在书中《_Journey from Chester to London_》写道 Godiva 夫人并非完全全裸而是穿了一件紧贴她身体的丝绸，丝绸的颜色与她的皮肤相似。</li>
+<li>虽然传说的大多数都描述了 Godiva 骑车完全裸体，但对于这一概念的历史真实性存在很多争议。有些人认为，裸体神话起源于清教徒的宣传，旨在抹黑虔诚的 Godiva 夫人的声誉。11 世纪和 12 世纪的编年史家提到 Godiva 夫人是一位受人尊敬的宗教女性，十分美丽，却没有提到她裸体穿越街道。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>油画</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>电影细读  ——  “第九区”</title>
     <url>/blog/2022/03/22/%E7%94%B5%E5%BD%B1%E7%BB%86%E8%AF%BB-%E2%80%94%E2%80%94-%E2%80%9C%E7%AC%AC%E4%B9%9D%E5%8C%BA%E2%80%9D/</url>
     <content><![CDATA[<h3 id="电影细读-——-“第九区”"><a href="#电影细读-——-“第九区”" class="headerlink" title="电影细读 —— “第九区”"></a>电影细读 —— “第九区”</h3><hr>
@@ -498,30 +498,6 @@
 ]]></content>
       <tags>
         <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐背后的故事  —— “Enchanted”</title>
-    <url>/blog/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
-    <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
-<h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
-<span id="more"></span>
-
-<hr>
-<h4 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h4><p>在一次采访中<strong>Taylor</strong>说这首歌是写给<strong>Adam Young</strong>的，在采访中<strong>Taylor</strong>这样说道：</p>
-<p>I wrote ＂Enchanted＂about a guy who I was enchanted to meet , obviously , He was somebody that I had talked to a couple of times on email , and then I was in New York and went to meet him.</p>
-<p>I remember just the whole way home thinking ,＂I hope he ‘ s not in love with somebody＂It was just wonderful , that feeling.Like , “ Oh my gosh . who＇s he with ? Does he like me ? Does he like somebody else ? What does it mean ?＂ I got home and he had emailed me and said something like ,＂Sorry I was so quiet . I was just wonderstruck meeting you .＂ And so I incorporated the word wonderstruck , into the song as a ,＂ Hey this one’s sorta for you .＂</p>
-<p><strong>大概意思是：</strong><br>我写“Enchanted”这首歌是关于一个我很想见到的人，显然，他是我在电子邮件上谈过几次的人，然后我就去纽约去见他。</p>
-<p>我记得回家的整个路上都在想，“我希望他没有爱上某人”，那种感觉真是太棒了。就像，“哦，天哪。他和谁在一起？他喜欢我吗？他喜欢 其他人？这是什么意思？”我回到家，他给我发了电子邮件，说，“对不起，我太安静了。我只是很惊讶见到你。 ”所以我把 wonderstruck 这个词加入到这首歌中，“嘿，这个有点适合你。”</p>
-<p>采访视频：<a href="https://www.youtube.com/watch?app=desktop&v=KR7kXQRg1Bw">点击此处</a><br><img src="https://i.bmp.ovh/imgs/2022/03/e9131932612c64eb.png" alt="采访截图"></p>
-<hr>
-<h4 id="回信…"><a href="#回信…" class="headerlink" title="回信…"></a>回信…</h4><p>后来<strong>Adam Young</strong>发现了专辑中的秘密后就给<strong>Taylor</strong>写了一封信，并在那首<strong>“Enchanted”</strong>中悄悄加了一句<strong>“Oh Taylor I was so enchanted to meet you too”</strong></p>
-<p>写给<strong>Taylor</strong>的信：<br><img src="https://i.bmp.ovh/imgs/2022/03/f42edcac9bdfa263.jpg" alt="写给Taylor的信"></p>
-<hr>
-<h4 id="后续…"><a href="#后续…" class="headerlink" title="后续…"></a>后续…</h4><p>后续<strong>Taylor</strong>没有回信给<strong>Adam</strong>，他们两人后来也没有在公开场合交流，具体他们曾经有没有在一起过一段时光也无人知晓……可能没有在一起的爱情就是最美的爱情吧…？</p>
-]]></content>
-      <tags>
-        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
@@ -609,6 +585,30 @@
 ]]></content>
       <tags>
         <tag>街景</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>音乐背后的故事  —— “Enchanted”</title>
+    <url>/blog/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
+    <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
+<h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
+<span id="more"></span>
+
+<hr>
+<h4 id="创作背景："><a href="#创作背景：" class="headerlink" title="创作背景："></a>创作背景：</h4><p>在一次采访中<strong>Taylor</strong>说这首歌是写给<strong>Adam Young</strong>的，在采访中<strong>Taylor</strong>这样说道：</p>
+<p>I wrote ＂Enchanted＂about a guy who I was enchanted to meet , obviously , He was somebody that I had talked to a couple of times on email , and then I was in New York and went to meet him.</p>
+<p>I remember just the whole way home thinking ,＂I hope he ‘ s not in love with somebody＂It was just wonderful , that feeling.Like , “ Oh my gosh . who＇s he with ? Does he like me ? Does he like somebody else ? What does it mean ?＂ I got home and he had emailed me and said something like ,＂Sorry I was so quiet . I was just wonderstruck meeting you .＂ And so I incorporated the word wonderstruck , into the song as a ,＂ Hey this one’s sorta for you .＂</p>
+<p><strong>大概意思是：</strong><br>我写“Enchanted”这首歌是关于一个我很想见到的人，显然，他是我在电子邮件上谈过几次的人，然后我就去纽约去见他。</p>
+<p>我记得回家的整个路上都在想，“我希望他没有爱上某人”，那种感觉真是太棒了。就像，“哦，天哪。他和谁在一起？他喜欢我吗？他喜欢 其他人？这是什么意思？”我回到家，他给我发了电子邮件，说，“对不起，我太安静了。我只是很惊讶见到你。 ”所以我把 wonderstruck 这个词加入到这首歌中，“嘿，这个有点适合你。”</p>
+<p>采访视频：<a href="https://www.youtube.com/watch?app=desktop&v=KR7kXQRg1Bw">点击此处</a><br><img src="https://i.bmp.ovh/imgs/2022/03/e9131932612c64eb.png" alt="采访截图"></p>
+<hr>
+<h4 id="回信…"><a href="#回信…" class="headerlink" title="回信…"></a>回信…</h4><p>后来<strong>Adam Young</strong>发现了专辑中的秘密后就给<strong>Taylor</strong>写了一封信，并在那首<strong>“Enchanted”</strong>中悄悄加了一句<strong>“Oh Taylor I was so enchanted to meet you too”</strong></p>
+<p>写给<strong>Taylor</strong>的信：<br><img src="https://i.bmp.ovh/imgs/2022/03/f42edcac9bdfa263.jpg" alt="写给Taylor的信"></p>
+<hr>
+<h4 id="后续…"><a href="#后续…" class="headerlink" title="后续…"></a>后续…</h4><p>后续<strong>Taylor</strong>没有回信给<strong>Adam</strong>，他们两人后来也没有在公开场合交流，具体他们曾经有没有在一起过一段时光也无人知晓……可能没有在一起的爱情就是最美的爱情吧…？</p>
+]]></content>
+      <tags>
+        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
