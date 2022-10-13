@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Markdown入门文档</title>
-    <url>/2022/03/21/Markdown%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/</url>
+    <url>/blog/2022/03/21/Markdown%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<h2 id="Markdown-入门文档"><a href="#Markdown-入门文档" class="headerlink" title="Markdown 入门文档"></a>Markdown 入门文档</h2><hr>
 <h3 id="Markdown-介绍："><a href="#Markdown-介绍：" class="headerlink" title="Markdown 介绍："></a>Markdown 介绍：</h3><ul>
 <li><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
@@ -229,7 +229,7 @@
   </entry>
   <entry>
     <title>Python 入门自学文档</title>
-    <url>/2022/03/16/Python-%E5%85%A5%E9%97%A8%E8%87%AA%E5%AD%A6%E6%96%87%E6%A1%A3/</url>
+    <url>/blog/2022/03/16/Python-%E5%85%A5%E9%97%A8%E8%87%AA%E5%AD%A6%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<h1 id="Python-入门自学文档"><a href="#Python-入门自学文档" class="headerlink" title="Python 入门自学文档"></a>Python 入门自学文档</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>Python 是一种易于学习又功能强大的编程语言。它提供了高效的高级数据结构，还能简单有效地面向对象编程。Python 优雅的语法和动态类型，以及解释型语言的本质，使它成为多数平台上写脚本和快速开发应用的理想语言。</li>
 </ul>
@@ -397,7 +397,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2022/03/16/hello-world/</url>
+    <url>/blog/2022/03/16/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
 
@@ -419,8 +419,34 @@
       </tags>
   </entry>
   <entry>
+    <title>油画背后的故事——《Lady Godiva》</title>
+    <url>/blog/2022/03/22/%E6%B2%B9%E7%94%BB%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%94%E2%80%94%E3%80%8ALady-Godiva%E3%80%8B/</url>
+    <content><![CDATA[<h3 id="油画背后的故事——《Lady-Godiva》"><a href="#油画背后的故事——《Lady-Godiva》" class="headerlink" title="油画背后的故事——《Lady Godiva》"></a>油画背后的故事——《Lady Godiva》</h3><hr>
+<div align="center">
+<img src="https://img1.imgtp.com/2022/03/22/2NFEpO2g.jpg" width="500px" height="XXX"  />
+</div>
+<div align="center">
+约翰·科利尔（John Collier）的《戈迪瓦夫人》（Lady Godiva），约1897年
+</div>
+
+<span id="more"></span>
+
+<hr>
+<h4 id="故事背景："><a href="#故事背景：" class="headerlink" title="故事背景："></a>故事背景：</h4><p>根据故事的最经典的版本，考文垂的人民在<strong>Leofric 伯爵</strong>的压迫税收下民生凋敝，伯爵的夫人<strong>Godiva</strong>因为怜悯生活在考文垂的人民一次又一次地向她的丈夫提出上诉，<strong>伯爵</strong>顽固地拒绝降低税收。最后，<strong>伯爵</strong>厌倦了她的恳求，他说，如果<strong>Godiva 夫人</strong>脱光衣服，骑着马穿过镇上的街道，<strong>伯爵</strong>会答应她的请求。<strong>Godiva 夫人</strong>听信了他的诺言，便让所有人都留在屋内并关上窗户后，<strong>Godiva 夫人</strong>便脱光衣服骑着白马穿过城镇。不过镇上有个叫<strong>Tom</strong>的裁缝违背了诺言，悄悄地偷窥<strong>Godiva 夫人</strong>。后来<strong>伯爵</strong>被她妻子的行为打动了，便宣布降低税收。</p>
+<hr>
+<h4 id="故事背后："><a href="#故事背后：" class="headerlink" title="故事背后："></a>故事背后：</h4><ol>
+<li>传说偷窥 Godiva 夫人的 Tom 后来被打瞎了眼睛。</li>
+<li>一位叫 Thomas Pennant 的作家在书中《_Journey from Chester to London_》写道 Godiva 夫人并非完全全裸而是穿了一件紧贴她身体的丝绸，丝绸的颜色与她的皮肤相似。</li>
+<li>虽然传说的大多数都描述了 Godiva 骑车完全裸体，但对于这一概念的历史真实性存在很多争议。有些人认为，裸体神话起源于清教徒的宣传，旨在抹黑虔诚的 Godiva 夫人的声誉。11 世纪和 12 世纪的编年史家提到 Godiva 夫人是一位受人尊敬的宗教女性，十分美丽，却没有提到她裸体穿越街道。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>油画</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《霍乱时期的爱情》（上）</title>
-    <url>/2022/03/20/%E3%80%8A%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85%E3%80%8B%EF%BC%88%E4%B8%8A%EF%BC%89/</url>
+    <url>/blog/2022/03/20/%E3%80%8A%E9%9C%8D%E4%B9%B1%E6%97%B6%E6%9C%9F%E7%9A%84%E7%88%B1%E6%83%85%E3%80%8B%EF%BC%88%E4%B8%8A%EF%BC%89/</url>
     <content><![CDATA[<h2 id="书籍推荐-——-《霍乱时期的爱情》（上）"><a href="#书籍推荐-——-《霍乱时期的爱情》（上）" class="headerlink" title="书籍推荐 —— 《霍乱时期的爱情》（上）"></a>书籍推荐 —— 《霍乱时期的爱情》（上）</h2><hr>
 <h3 id="作者简介："><a href="#作者简介：" class="headerlink" title="作者简介："></a>作者简介：</h3><p><strong>《霍乱时期的爱情》</strong>是哥伦比亚作家<strong>加夫列尔·加西亚·马尔克斯（后文简称马尔克斯）</strong>的作品，其经典代表作是<strong>《百年孤独》</strong>，并在 1982 年获得诺贝尔文学奖。</p>
 <span id="more"></span>
@@ -447,7 +473,7 @@
   </entry>
   <entry>
     <title>电影细读  ——  “第九区”</title>
-    <url>/2022/03/22/%E7%94%B5%E5%BD%B1%E7%BB%86%E8%AF%BB-%E2%80%94%E2%80%94-%E2%80%9C%E7%AC%AC%E4%B9%9D%E5%8C%BA%E2%80%9D/</url>
+    <url>/blog/2022/03/22/%E7%94%B5%E5%BD%B1%E7%BB%86%E8%AF%BB-%E2%80%94%E2%80%94-%E2%80%9C%E7%AC%AC%E4%B9%9D%E5%8C%BA%E2%80%9D/</url>
     <content><![CDATA[<h3 id="电影细读-——-“第九区”"><a href="#电影细读-——-“第九区”" class="headerlink" title="电影细读 —— “第九区”"></a>电影细读 —— “第九区”</h3><hr>
 <h4 id="电影介绍："><a href="#电影介绍：" class="headerlink" title="电影介绍："></a>电影介绍：</h4><p>影片<strong>《第九区》</strong>是在 2009 年上映的科幻电影，由<strong>尼尔·布洛姆坎普</strong>导演。当时导演还没满 30 岁。在此之前导演曾在自己制作的科幻短片中崭露头角。影片就是从其中的《约堡外星人》改编而成。这几部科幻短片虽然反响不大，但获得了<strong>彼得·杰克逊</strong>赏识，当时选了<strong>尼尔·布洛姆坎普</strong>当《光环》的导演。后来因为诸公司的商业利益，《光环》计划被搁置。这使得彼得·杰克逊自掏腰包让<strong>尼尔·布洛姆坎普</strong>拍一部自己想拍的电影。一部让好莱坞科幻界感到羞耻的电影就这样诞生了。接着影片提名了五项奥斯卡，影片最终收获了 1.2 亿美元的票房成绩。<strong>尼尔·布洛姆坎普</strong>一举成名，这片以南非种族歧视的背景的以人性为题材的电影拉开了帷幕。</p>
 <span id="more"></span>
@@ -475,34 +501,8 @@
       </tags>
   </entry>
   <entry>
-    <title>油画背后的故事——《Lady Godiva》</title>
-    <url>/2022/03/22/%E6%B2%B9%E7%94%BB%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B%E2%80%94%E2%80%94%E3%80%8ALady-Godiva%E3%80%8B/</url>
-    <content><![CDATA[<h3 id="油画背后的故事——《Lady-Godiva》"><a href="#油画背后的故事——《Lady-Godiva》" class="headerlink" title="油画背后的故事——《Lady Godiva》"></a>油画背后的故事——《Lady Godiva》</h3><hr>
-<div align="center">
-<img src="https://img1.imgtp.com/2022/03/22/2NFEpO2g.jpg" width="500px" height="XXX"  />
-</div>
-<div align="center">
-约翰·科利尔（John Collier）的《戈迪瓦夫人》（Lady Godiva），约1897年
-</div>
-
-<span id="more"></span>
-
-<hr>
-<h4 id="故事背景："><a href="#故事背景：" class="headerlink" title="故事背景："></a>故事背景：</h4><p>根据故事的最经典的版本，考文垂的人民在<strong>Leofric 伯爵</strong>的压迫税收下民生凋敝，伯爵的夫人<strong>Godiva</strong>因为怜悯生活在考文垂的人民一次又一次地向她的丈夫提出上诉，<strong>伯爵</strong>顽固地拒绝降低税收。最后，<strong>伯爵</strong>厌倦了她的恳求，他说，如果<strong>Godiva 夫人</strong>脱光衣服，骑着马穿过镇上的街道，<strong>伯爵</strong>会答应她的请求。<strong>Godiva 夫人</strong>听信了他的诺言，便让所有人都留在屋内并关上窗户后，<strong>Godiva 夫人</strong>便脱光衣服骑着白马穿过城镇。不过镇上有个叫<strong>Tom</strong>的裁缝违背了诺言，悄悄地偷窥<strong>Godiva 夫人</strong>。后来<strong>伯爵</strong>被她妻子的行为打动了，便宣布降低税收。</p>
-<hr>
-<h4 id="故事背后："><a href="#故事背后：" class="headerlink" title="故事背后："></a>故事背后：</h4><ol>
-<li>传说偷窥 Godiva 夫人的 Tom 后来被打瞎了眼睛。</li>
-<li>一位叫 Thomas Pennant 的作家在书中《_Journey from Chester to London_》写道 Godiva 夫人并非完全全裸而是穿了一件紧贴她身体的丝绸，丝绸的颜色与她的皮肤相似。</li>
-<li>虽然传说的大多数都描述了 Godiva 骑车完全裸体，但对于这一概念的历史真实性存在很多争议。有些人认为，裸体神话起源于清教徒的宣传，旨在抹黑虔诚的 Godiva 夫人的声誉。11 世纪和 12 世纪的编年史家提到 Godiva 夫人是一位受人尊敬的宗教女性，十分美丽，却没有提到她裸体穿越街道。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>油画</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>谷歌街景第一弹</title>
-    <url>/2022/03/22/%E8%B0%B7%E6%AD%8C%E8%A1%97%E6%99%AF%E7%AC%AC%E4%B8%80%E5%BC%B9/</url>
+    <url>/blog/2022/03/22/%E8%B0%B7%E6%AD%8C%E8%A1%97%E6%99%AF%E7%AC%AC%E4%B8%80%E5%BC%B9/</url>
     <content><![CDATA[<h3 id="谷歌街景"><a href="#谷歌街景" class="headerlink" title="谷歌街景"></a>谷歌街景</h3><hr>
 <h4 id="送给疫情期间想去旅行的朋友们"><a href="#送给疫情期间想去旅行的朋友们" class="headerlink" title="送给疫情期间想去旅行的朋友们"></a>送给疫情期间想去旅行的朋友们</h4><p>“旅行真正的快乐不在于目的地，而在于它的过程。遇见不同的人，遭遇到奇奇怪怪的事，克服种种的困难，听听不同的语言，在我都是很大的快乐。虽说一沙一世界，一花一天堂。更何况世界不止是一沙一花，世界是多少多少奇妙的现象累积起来的。我看，我听，我的阅历就更丰富了。”</p>
 <div align="right">——三毛</div>
@@ -589,7 +589,7 @@
   </entry>
   <entry>
     <title>音乐背后的故事  —— “Enchanted”</title>
-    <url>/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
+    <url>/blog/2022/03/21/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CEnchanted%E2%80%9D/</url>
     <content><![CDATA[<h2 id="音乐背后的故事-——-“Enchanted”"><a href="#音乐背后的故事-——-“Enchanted”" class="headerlink" title="音乐背后的故事 —— “Enchanted”"></a>音乐背后的故事 —— “Enchanted”</h2><hr>
 <h4 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h4><p><strong>《Enchanted》</strong>收录于<strong>Taylor.Swift</strong>2010 年 10 月 25 日发行的专辑<strong>《Speak Now》</strong>，同时也是女性香水“Wonderstruck”的主题曲。</p>
 <span id="more"></span>
@@ -613,7 +613,7 @@
   </entry>
   <entry>
     <title>音乐背后的故事 —— “Hey Jude”</title>
-    <url>/2022/03/22/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CHey-Jude%E2%80%9D/</url>
+    <url>/blog/2022/03/22/%E9%9F%B3%E4%B9%90%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B-%E2%80%94%E2%80%94-%E2%80%9CHey-Jude%E2%80%9D/</url>
     <content><![CDATA[<h3 id="音乐背后的故事-——-“Hey-Jude”"><a href="#音乐背后的故事-——-“Hey-Jude”" class="headerlink" title="音乐背后的故事 —— “Hey Jude”"></a>音乐背后的故事 —— “Hey Jude”</h3><hr>
 <h3 id="歌曲简介："><a href="#歌曲简介：" class="headerlink" title="歌曲简介："></a>歌曲简介：</h3><p><strong>《Hey Jude</strong>》是英国摇滚乐队<strong>披头士乐队（The Beatles）</strong>的一首歌曲，于 1968 年 8 月作为非专辑单曲发行。它由<strong>保罗·麦卡特尼（Paul McCartney）</strong>撰写</p>
 <span id="more"></span>
