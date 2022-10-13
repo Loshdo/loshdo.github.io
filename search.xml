@@ -14,6 +14,8 @@
 <li><p>Markdown 编写的文档后缀为 .md， .markdown。</p>
 </li>
 </ul>
+<span id="more"></span>
+
 <hr>
 <h4 id="Markdown-应用："><a href="#Markdown-应用：" class="headerlink" title="Markdown 应用："></a>Markdown 应用：</h4><ul>
 <li><p>Markdown 能被使用来撰写电子书，如：Gitbook。</p>
@@ -153,7 +155,7 @@
 <ul>
 <li>效果如下所示：</li>
 </ul>
-<p>这个链接用 1 作为网址变量 <a href="http://www.google.com/">Google</a><br>这个链接用 runoob 作为网址变量 <a href="http://www.runoob.com/">Runoob</a><br>然后在文档的结尾为变量赋值（网址）</p>
+<p>这个链接用 1 作为网址变量 [Google][1]<br>这个链接用 runoob 作为网址变量 [Runoob][runoob]<br>然后在文档的结尾为变量赋值（网址）<br>[1]: <a href="http://www.google.com/">http://www.google.com/</a><br>[runoob]: <a href="http://www.runoob.com/">http://www.runoob.com/</a></p>
 <hr>
 <h3 id="5-Markdown-图片"><a href="#5-Markdown-图片" class="headerlink" title="5. Markdown 图片"></a>5. Markdown 图片</h3><hr>
 <ul>
@@ -162,7 +164,7 @@
 <figure class="highlight scss"><table><tr><td class="code"><pre><code class="hljs scss">!<span class="hljs-selector-attr">[alt 属性文本]</span>(图片地址)<br>!<span class="hljs-selector-attr">[alt 属性文本]</span>(图片地址 &quot;可选标题&quot;)<br></code></pre></td></tr></table></figure>
 
 <ul>
-<li>效果如下所示：<br><img src="https://loshdo-1314257236.cos.ap-guangzhou.myqcloud.com/star.jpg" alt="星空"><br><img src="https://loshdo-1314257236.cos.ap-guangzhou.myqcloud.com/star.jpg" alt="星空" title="可选标题--星空"></li>
+<li>效果如下所示：<br><img src="https://i.bmp.ovh/imgs/2022/03/6330504b8dafa68b.jpg" alt="星空"><br><img src="https://i.bmp.ovh/imgs/2022/03/6330504b8dafa68b.jpg" alt="星空" title="可选标题--星空"></li>
 </ul>
 <hr>
 <h3 id="6-Markdown-表格"><a href="#6-Markdown-表格" class="headerlink" title="6. Markdown 表格"></a>6. Markdown 表格</h3><hr>
@@ -230,6 +232,7 @@
     <url>/2022/03/22/%E8%B0%B7%E6%AD%8C%E8%A1%97%E6%99%AF%E7%AC%AC%E4%B8%80%E5%BC%B9/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="谷歌街景"><a href="#谷歌街景" class="headerlink" title="谷歌街景"></a>谷歌街景</h3><hr>
 <h4 id="送给疫情期间想去旅行的朋友们"><a href="#送给疫情期间想去旅行的朋友们" class="headerlink" title="送给疫情期间想去旅行的朋友们"></a>送给疫情期间想去旅行的朋友们</h4><p>“旅行真正的快乐不在于目的地，而在于它的过程。遇见不同的人，遭遇到奇奇怪怪的事，克服种种的困难，听听不同的语言，在我都是很大的快乐。虽说一沙一世界，一花一天堂。更何况世界不止是一沙一花，世界是多少多少奇妙的现象累积起来的。我看，我听，我的阅历就更丰富了。”</p>
+<p><img src="https://loshdo-1314257236.cos.ap-guangzhou.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220322205615.jpg"></p>
 <div align="right">——三毛</div>
 
 <hr>
@@ -449,6 +452,10 @@
 </li>
 <li><p>Python 解释器易于扩展，可以使用 C 或 C++（或者其他可以通过 C 调用的语言）扩展新的功能和数据类型。Python 也可用于可定制化软件中的扩展程序语言。</p>
 </li>
+</ul>
+<span id="more"></span>
+
+<ul>
 <li><p>有关标准的对象和模块，请参阅 <a href="https://docs.python.org/zh-cn/3/library/index.html#library-index">Python 标准库</a>。<a href="https://docs.python.org/zh-cn/3/reference/index.html#reference-index">Python 语言参考手册</a> 提供了更正式的语言定义。想要编写 C 或者 C++ 扩展可以参考 <a href="https://docs.python.org/zh-cn/3/extending/index.html#extending-index">扩展和嵌入 Python 解释器</a> 和 <a href="https://docs.python.org/zh-cn/3/c-api/index.html#c-api-index">Python&#x2F;C API 参考手册</a>。另外还有不少书籍深入讲解 Python。</p>
 <p><strong><em>注：本人自学参考视频 <a href="https://www.bilibili.com/video/BV1vA411b7Rn?p=11&spm_id_from=pageDriver">b 站求知学堂</a>，<a href="https://www.runoob.com/python3/python3-tutorial.html">Python3 菜鸟教程</a> 以及 <a href="https://docs.python.org/zh-cn/3/">Python 中文开发文档 3.9.2</a></em></strong></p>
 </li>

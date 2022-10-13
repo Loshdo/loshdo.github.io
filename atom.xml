@@ -6,7 +6,7 @@
   <link href="http://loshdo.gtihub.io.git/atom.xml" rel="self"/>
   
   <link href="http://loshdo.gtihub.io.git/"/>
-  <updated>2022-10-13T08:19:29.708Z</updated>
+  <updated>2022-10-13T08:27:03.469Z</updated>
   <id>http://loshdo.gtihub.io.git/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://loshdo.gtihub.io.git/2022/03/22/%E8%B0%B7%E6%AD%8C%E8%A1%97%E6%99%AF%E7%AC%AC%E4%B8%80%E5%BC%B9/"/>
     <id>http://loshdo.gtihub.io.git/2022/03/22/%E8%B0%B7%E6%AD%8C%E8%A1%97%E6%99%AF%E7%AC%AC%E4%B8%80%E5%BC%B9/</id>
     <published>2022-03-22T13:18:45.000Z</published>
-    <updated>2022-10-13T08:19:29.708Z</updated>
+    <updated>2022-10-13T08:27:03.469Z</updated>
     
     
       
@@ -121,16 +121,20 @@
     <link href="http://loshdo.gtihub.io.git/2022/03/21/Markdown%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/"/>
     <id>http://loshdo.gtihub.io.git/2022/03/21/Markdown%E5%85%A5%E9%97%A8%E6%96%87%E6%A1%A3/</id>
     <published>2022-03-21T11:14:35.000Z</published>
-    <updated>2022-10-13T08:19:11.460Z</updated>
+    <updated>2022-10-13T08:22:07.288Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;Markdown-入门文档&quot;&gt;&lt;a href=&quot;#Markdown-入门文档&quot; class=&quot;headerlink&quot; title=&quot;Markdown 入门文档&quot;&gt;&lt;/a&gt;Markdown 入门文档&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;Markdown-介绍：&quot;&gt;&lt;a href=&quot;#Markdown-介绍：&quot; class=&quot;headerlink&quot; title=&quot;Markdown 介绍：&quot;&gt;&lt;/a&gt;Markdown 介绍：&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Markdown 编写的文档后缀为 .md， .markdown。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
@@ -162,16 +166,18 @@
     <link href="http://loshdo.gtihub.io.git/2022/03/16/Python-%E5%85%A5%E9%97%A8%E8%87%AA%E5%AD%A6%E6%96%87%E6%A1%A3/"/>
     <id>http://loshdo.gtihub.io.git/2022/03/16/Python-%E5%85%A5%E9%97%A8%E8%87%AA%E5%AD%A6%E6%96%87%E6%A1%A3/</id>
     <published>2022-03-16T14:45:40.000Z</published>
-    <updated>2022-10-13T08:18:35.597Z</updated>
+    <updated>2022-10-13T08:23:10.300Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;[[CSS中的Flex布局]][[python自学文档]][[Markdown入门文档]][[Mybatis自学文档]]&lt;/p&gt;
+&lt;h1 id=&quot;Python-入门自学文档&quot;&gt;&lt;a href=&quot;#Python-入门自学文档&quot; class=&quot;headerlink&quot; title=&quot;Python 入门自学文档&quot;&gt;&lt;/a&gt;Python 入门自学文档&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Python 是一种易于学习又功能强大的编程语言。它提供了高效的高级数据结构，还能简单有效地面向对象编程。Python 优雅的语法和动态类型，以及解释型语言的本质，使它成为多数平台上写脚本和快速开发应用的理想语言。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Python 解释器及丰富的标准库，提供了适用于各个主要系统平台的源码或机器码，这些可以到 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python 官网&lt;/a&gt;免费获取，并可自由地分发。许多免费的第三方 Python 模块、程序、工具和它们的文档，也能在这个网站上找到对应内容或链接。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Python 解释器易于扩展，可以使用 C 或 C++（或者其他可以通过 C 调用的语言）扩展新的功能和数据类型。Python 也可用于可定制化软件中的扩展程序语言。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
