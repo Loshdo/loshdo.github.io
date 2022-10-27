@@ -26,6 +26,9 @@
 #category{
   background: rgba(255, 255, 255, 0.8);
 }
+.swiper-3d .swiper-cube-shadow,.swiper-3d .swiper-slide, .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+}
 /* 页脚透明 */
 #footer{
     background: transparent!important;
@@ -55,3 +58,7 @@
     #page-header::before{
       background: transparent!important;
       }
+  [data-theme="dark"]
+    .swiper-3d .swiper-cube-shadow,.swiper-3d .swiper-slide, .swiper-3d .swiper-slide-shadow, .swiper-3d swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-wrapper {
+      background: transparent!important;
+    }
