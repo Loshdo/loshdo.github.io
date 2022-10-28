@@ -62,3 +62,9 @@
     .swiper-3d .swiper-cube-shadow,.swiper-3d .swiper-slide, .swiper-3d .swiper-slide-shadow, .swiper-3d swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-wrapper {
       background: transparent!important;
     }
+    /* 夜间模式换背景 */
+  [data-theme="dark"]
+    #web_bg {
+      background: url(https://blog-1314257236.cos.ap-guangzhou.myqcloud.com/Love/bg4.webp);
+    }
+  
